@@ -12,5 +12,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # No need to copy the script here
 
-# Command to run the script
-CMD ["python", "./managers.py"]
+# Command to run the script (change as appropriate)
+#CMD ["python", "./managers.py"]
+CMD ["python", "./players.py"]

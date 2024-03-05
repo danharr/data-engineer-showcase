@@ -6,7 +6,7 @@ playground for some data engineering projects
 ### how managers signed the current squad
 This example uses
 - Python
- - Pandas, Beautiful Soup
+- Pandas, Beautiful Soup
 - Docker
 - Tableau Public
 
