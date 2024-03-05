@@ -6,8 +6,16 @@ import pandas as pd
 
 teams = [
 
-    {"name":'arsenal',"id":142},
-    {"name":'fulham',"id":1055}
+    {"name":'Arsenal',"id":142},
+    {"name":'Fulham',"id":1055},
+    {"name":'Man City',"id":1718},
+        {"name":'Chelsea',"id":536},
+        {"name":'Liverpool',"id":1563},
+        {"name":'Man Utd',"id":1724},
+        {"name":'Newcastle',"id":1823},
+        {"name":'Tottenham Hotspur',"id":2590},
+        {"name":'Aston Villa',"id":154}
+    
 ]
 
 

@@ -7,7 +7,14 @@ const csvFilePath = 'players.csv';
 
 var teams = [
 {"name":"Arsenal", "url":"https://www.transfermarkt.co.uk/arsenal-fc/kader/verein/11/saison_id/2023/plus/1"},
-{"name":"Fulham", "url":"https://www.transfermarkt.co.uk/fulham-fc/kader/verein/931/saison_id/2023/plus/1"}
+{"name":"Fulham", "url":"https://www.transfermarkt.co.uk/fulham-fc/kader/verein/931/saison_id/2023/plus/1"},
+{"name":"Man City","url":"https://www.transfermarkt.co.uk/manchester-city/kader/verein/281/saison_id/2023/plus/1"},
+{"name":"Chelsea","url":"https://www.transfermarkt.co.uk/chelsea-fc/kader/verein/631/saison_id/2023/plus/1"},
+{"name":"Liverpool","url":"https://www.transfermarkt.co.uk/liverpool-fc/kader/verein/31/saison_id/2023/plus/1"},
+{"name":"Tottenham Hotspur","url":"https://www.transfermarkt.co.uk/tottenham-hotspur/kader/verein/148/saison_id/2023/plus/1"},
+{"name":"Man Utd","url":"https://www.transfermarkt.co.uk/manchester-united/kader/verein/985/saison_id/2023/plus/1"},
+{"name":"Newcastle","url":"https://www.transfermarkt.co.uk/newcastle-united/kader/verein/762/saison_id/2023/plus/1"},
+{"name":"Aston Villa","url":"https://www.transfermarkt.co.uk/aston-villa/kader/verein/405/saison_id/2023/plus/1"}
 
 
 
