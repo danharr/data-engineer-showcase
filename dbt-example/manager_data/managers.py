@@ -14,7 +14,8 @@ teams = [
         {"name":'Man Utd',"id":1724},
         {"name":'Newcastle',"id":1823},
         {"name":'Tottenham Hotspur',"id":2590},
-        {"name":'Aston Villa',"id":154}
+        {"name":'Aston Villa',"id":154},
+ {"name":'West Ham',"id":2802}
     
 ]
 

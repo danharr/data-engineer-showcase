@@ -14,8 +14,8 @@ var teams = [
 {"name":"Tottenham Hotspur","url":"https://www.transfermarkt.co.uk/tottenham-hotspur/kader/verein/148/saison_id/2023/plus/1"},
 {"name":"Man Utd","url":"https://www.transfermarkt.co.uk/manchester-united/kader/verein/985/saison_id/2023/plus/1"},
 {"name":"Newcastle","url":"https://www.transfermarkt.co.uk/newcastle-united/kader/verein/762/saison_id/2023/plus/1"},
-{"name":"Aston Villa","url":"https://www.transfermarkt.co.uk/aston-villa/kader/verein/405/saison_id/2023/plus/1"}
-
+{"name":"Aston Villa","url":"https://www.transfermarkt.co.uk/aston-villa/kader/verein/405/saison_id/2023/plus/1"},
+{"name":"West Ham","url":"https://www.transfermarkt.co.uk/west-ham-united/kader/verein/379/saison_id/2023/plus/1"}
 
 
 ];
