@@ -1,6 +1,9 @@
 const axios = require('axios');
 const cheerio = require("cheerio");
+const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 
+
+const csvFilePath = 'players.csv';
 
 var teams = [
 {"name":"Arsenal", "url":"https://www.transfermarkt.co.uk/arsenal-fc/kader/verein/11/saison_id/2023/plus/1"},
@@ -60,8 +63,25 @@ td.each((index, element) => {
       
       )});
 
-      console.log(data)
+   
 
+
+
+      const header = Object.keys(data[0]).map(key => ({ id: key, title: key }));
+  
+
+
+      // Create CSV Writer instance
+const csvWriter = createCsvWriter({
+    path: csvFilePath,
+    header,
+    append: true, // Set to true to append data to the existing file
+  });
+
+  // Append JSON data to the CSV file
+csvWriter.writeRecords(data)
+.then(() => console.log('CSV file updated with new data'))
+.catch(error => console.error('Error writing CSV:', error));
 }
 
 
