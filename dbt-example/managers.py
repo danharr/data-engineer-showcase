@@ -33,3 +33,5 @@ for x in teams:
 
 df = pd.DataFrame(data)
 print(df.to_string())
+
+df.to_csv('out.csv', index=False)  
