@@ -1,1 +1,4 @@
 dbt-example/player_data/node_modules
+dbt-example/dbt/squad_creation/target/
+dbt-example/dbt/squad_creation/dbt_packages/
+dbt-example/dbt/squad_creation/logs
