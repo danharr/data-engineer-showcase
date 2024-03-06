@@ -24,8 +24,17 @@ var teams = [
 {"name":"Man Utd","url":"https://www.transfermarkt.co.uk/manchester-united/kader/verein/985/saison_id/2023/plus/1"},
 {"name":"Newcastle","url":"https://www.transfermarkt.co.uk/newcastle-united/kader/verein/762/saison_id/2023/plus/1"},
 {"name":"Aston Villa","url":"https://www.transfermarkt.co.uk/aston-villa/kader/verein/405/saison_id/2023/plus/1"},
-{"name":"West Ham","url":"https://www.transfermarkt.co.uk/west-ham-united/kader/verein/379/saison_id/2023/plus/1"}
-
+{"name":"West Ham","url":"https://www.transfermarkt.co.uk/west-ham-united/kader/verein/379/saison_id/2023/plus/1"},
+{"name":"Brighton","url":"https://www.transfermarkt.co.uk/brighton-amp-hove-albion/kader/verein/1237/saison_id/2023/plus/1"},
+{"name":"Brentford","url":"https://www.transfermarkt.co.uk/brentford-fc/kader/verein/1148/saison_id/2023/plus/1"},
+{"name":"Crystal Palace","url":"https://www.transfermarkt.co.uk/crystal-palace/kader/verein/873/saison_id/2023/plus/1"},
+{"name":"Nottingham Forest","url":"https://www.transfermarkt.co.uk/nottingham-forest/kader/verein/703/saison_id/2023/plus/1"},
+{"name":"Bournemouth","url":"https://www.transfermarkt.co.uk/afc-bournemouth/kader/verein/989/saison_id/2023/plus/1"},
+{"name":"Everton","url":"https://www.transfermarkt.co.uk/everton-fc/kader/verein/29/saison_id/2023/plus/1"},
+{"name":"Wolves","url":"https://www.transfermarkt.co.uk/wolverhampton-wanderers/kader/verein/543/saison_id/2023/plus/1"},
+{"name":"Burnley","url":"https://www.transfermarkt.co.uk/burnley-fc/kader/verein/1132/saison_id/2023/plus/1"},
+{"name":"Sheffield United","url":"https://www.transfermarkt.co.uk/sheffield-united/kader/verein/350/saison_id/2023/plus/1"},
+{"name":"Luton","url":"https://www.transfermarkt.co.uk/luton-town/kader/verein/1031/saison_id/2023/plus/1"}
 
 ];
 

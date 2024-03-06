@@ -15,7 +15,18 @@ teams = [
         {"name":'Newcastle',"id":1823},
         {"name":'Tottenham Hotspur',"id":2590},
         {"name":'Aston Villa',"id":154},
- {"name":'West Ham',"id":2802}
+ {"name":'West Ham',"id":2802},
+  {"name":'Bournemouth',"id":359},
+   {"name":'Brentford',"id":378},
+   {"name":'Brighton',"id":381},
+   {"name":'Burnley',"id":435},
+   {"name":'Crystal Palace',"id":646},
+   {"name":'Everton',"id":942},
+   {"name":'Luton',"id":1628},
+   {"name":'Nottingham Forest',"id":1845},
+   {"name":'Sheffield United',"id":2328},
+   {"name":'Wolves',"id":2848}
+  
     
 ]
 
