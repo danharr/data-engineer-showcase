@@ -1,0 +1,18 @@
+
+version: 2
+
+models:
+  - name: managers_cleaned
+    description: "cleans managers dates"
+  - name: players_cleaned
+    description: "cleans player dates"
+  - name: players_and_incumbent_manager
+    description: "combines players & managers to show the manager at the time a player joined"
+    
+sources:
+  - name: dev
+    database: learning  
+    schema: dev  
+    tables:
+    - name: players
+    - name: managers

@@ -42,4 +42,4 @@ for x in teams:
 
 df = pd.DataFrame(data)
 
-df.to_csv('managers-dates.csv', header=['manager','start_date','end_date','club'],index=False)  
+df.to_csv('managers.csv', header=['manager','start_date','end_date','club'],index=False)  
