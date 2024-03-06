@@ -1,9 +1,18 @@
 const axios = require('axios');
 const cheerio = require("cheerio");
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
-
+const fs = require('fs');
 
 const csvFilePath = 'players.csv';
+
+// Check if the file exists before attempting to delete it
+if (fs.existsSync(csvFilePath)) {
+    // Delete the file
+    fs.unlinkSync(csvFilePath);
+    console.log(`File ${csvFilePath} deleted successfully.`);
+  } else {
+    console.log(`File ${csvFilePath} does not exist.`);
+  };
 
 var teams = [
 {"name":"Arsenal", "url":"https://www.transfermarkt.co.uk/arsenal-fc/kader/verein/11/saison_id/2023/plus/1"},
@@ -36,7 +45,7 @@ async function main() {
  
  const listItems = $('.items').find('tbody tr');
 
- console.log(`List item count: ${listItems.length}`);
+
 
  var players = [];
 var dates = [];
@@ -63,7 +72,7 @@ td.each((index, element) => {
       function(d,i) {data.push(
           
           
-          {"data":players[i],"joined":d,"club":val.name}
+          {"player":players[i],"joined":d,"club":val.name}
       
       
       
@@ -74,14 +83,14 @@ td.each((index, element) => {
 
 
 
-      const header = Object.keys(data[0]).map(key => ({ id: key, title: key }));
+
   
 
 
       // Create CSV Writer instance
 const csvWriter = createCsvWriter({
     path: csvFilePath,
-    header,
+    header: ['player', 'joined','club'],
     append: true, // Set to true to append data to the existing file
   });
 
