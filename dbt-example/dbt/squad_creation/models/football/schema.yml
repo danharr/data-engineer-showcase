@@ -4,7 +4,13 @@ version: 2
 models:
   - name: managers_cleaned
     description: "cleans managers dates"
+    tests:
+      - dbt_expectations.expect_table_column_count_to_equal:
+          value: 4
   - name: players_cleaned
+    tests:
+      - dbt_expectations.expect_table_column_count_to_equal:
+          value: 3
     description: "cleans player dates"
   - name: players_and_incumbent_manager
     description: "combines players & managers to show the manager at the time a player joined"
