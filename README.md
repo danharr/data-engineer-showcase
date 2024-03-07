@@ -12,4 +12,6 @@ This example uses
 
 and takes unstructured data from various sites to then create a football based question about how a team's squad has been created over the years
 
+![dashboard](/Squads.png?raw=true "Tableau Dashboard")
+
 
