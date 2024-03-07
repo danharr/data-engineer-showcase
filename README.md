@@ -15,6 +15,8 @@ This example uses
 
 and takes unstructured data from various sites to then create a football based question about how a team's squad has been created over the years
 
+[Final dashboard](https://public.tableau.com/app/profile/danjpharrington/viz/number_of_players_per_manager/Squads)
+
 ![dashboard](/Squads.png?raw=true "Tableau Dashboard")
 
 
