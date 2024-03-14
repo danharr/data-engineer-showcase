@@ -3,6 +3,6 @@ services:
   pyspark:
     image: "jupyter/all-spark-notebook"
     volumes:
-      - .:/home/danharr
+      - ./:/home/jovyan
     ports:
       - 8888:8888
