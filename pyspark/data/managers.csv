@@ -1,0 +1,808 @@
+manager,start_date,end_date,club
+Mikel Arteta,"22 Dec, 2019",Present,Arsenal
+Fredrik Ljungberg,"29 Nov, 2019","22 Dec, 2019",Arsenal
+Unai Emery,"23 May, 2018","29 Nov, 2019",Arsenal
+Arsene Wenger,"30 Sep, 1996","14 May, 2018",Arsenal
+Pat Rice,"16 Sep, 1996","30 Sep, 1996",Arsenal
+Stewart Houston,"12 Aug, 1996","16 Sep, 1996",Arsenal
+Bruce Rioch,"08 Jun, 1995","12 Aug, 1996",Arsenal
+Stewart Houston,"21 Feb, 1995","08 Jun, 1996",Arsenal
+George Graham,"14 May, 1986","21 Feb, 1995",Arsenal
+Steve Burtenshaw,"25 Mar, 1986","14 May, 1986",Arsenal
+Don Howe,"16 Dec, 1983","22 Mar, 1986",Arsenal
+Terry Neill,"08 Jul, 1976","16 Dec, 1983",Arsenal
+Bertie Mee,"01 Jun, 1966","04 May, 1976",Arsenal
+Billy Wright,"01 May, 1962","01 Jun, 1966",Arsenal
+George Swindin,"01 Jul, 1958","01 May, 1962",Arsenal
+Jack Crayston,"01 Nov, 1956","01 May, 1958",Arsenal
+Tom Whittaker,"01 Jun, 1947","01 Oct, 1956",Arsenal
+George Allison,"01 Jun, 1934","01 May, 1947",Arsenal
+Herbert Chapman,"01 Jun, 1925","01 Jan, 1934",Arsenal
+Leslie Knighton,"01 May, 1919","01 Jun, 1925",Arsenal
+George Morrell,"01 Feb, 1908","01 May, 1915",Arsenal
+Phil Kelso,"01 Aug, 1904","01 Feb, 1908",Arsenal
+Harry Bradshaw,"01 Aug, 1899","01 May, 1904",Arsenal
+George Elcoat,"01 Mar, 1898","31 May, 1899",Arsenal
+Tom Mitchell,"01 Aug, 1897","01 Mar, 1898",Arsenal
+Sam Hollis,"01 Aug, 1894","31 Jul, 1897",Arsenal
+Marco Silva,"01 Jul, 2021",Present,Fulham
+Scott Parker,"28 Feb, 2019","01 Jun, 2021",Fulham
+Claudio Ranieri,"14 Nov, 2018","28 Feb, 2019",Fulham
+Slavisa Jokanovic,"27 Dec, 2015","13 Nov, 2018",Fulham
+Stuart Gray,"08 Dec, 2015","27 Dec, 2015",Fulham
+Peter Grant,"20 Nov, 2015","08 Dec, 2015",Fulham
+Kit Symons,"18 Sep, 2014","08 Nov, 2015",Fulham
+Felix Magath,"14 Feb, 2014","18 Sep, 2014",Fulham
+Rene Meulensteen,"02 Dec, 2013","14 Feb, 2014",Fulham
+Martin Jol,"07 Jun, 2011","02 Dec, 2013",Fulham
+Mark Hughes,"29 Jul, 2010","01 Jun, 2011",Fulham
+Roy Hodgson,"30 Dec, 2007","01 Jul, 2010",Fulham
+Ray Lewington,"21 Dec, 2007","30 Dec, 2007",Fulham
+Lawrie Sanchez,"11 Apr, 2007","21 Dec, 2007",Fulham
+Chris Coleman,"17 Apr, 2003","11 Apr, 2007",Fulham
+Jean Tigana,"01 Jul, 2000","17 Apr, 2003",Fulham
+Karlheinz Riedle,"30 Mar, 2000","01 Jul, 2000",Fulham
+Paul Bracewell,"14 May, 1999","29 Mar, 2000",Fulham
+Frank Sibley,"09 May, 1999","14 May, 1999",Fulham
+Kevin Keegan,"07 May, 1998","09 May, 1999",Fulham
+Ray Wilkins,"25 Sep, 1997","07 May, 1998",Fulham
+Mickey Adams,"01 Aug, 1996","25 Sep, 1997",Fulham
+Ian Branfoot,"01 Aug, 1994","19 Feb, 1996",Fulham
+Don Mackay,"27 Jan, 1991","28 Mar, 1994",Fulham
+Alan Dicks,"09 Jul, 1990","31 Dec, 1991",Fulham
+Ray Lewington,"01 Jul, 1986","01 Jun, 1990",Fulham
+Ray Harford,"20 Apr, 1984","10 Jun, 1986",Fulham
+Malcolm MacDonald,"01 Nov, 1980","20 Apr, 1984",Fulham
+Bobby Campbell,"16 Dec, 1976","31 Oct, 1980",Fulham
+Alec Stock,"21 Jun, 1972","16 Dec, 1976",Fulham
+Bill Dodgin(Jnr),"01 Dec, 1969","19 Jun, 1972",Fulham
+Bobby Robson,"01 Jan, 1968","01 Nov, 1968",Fulham
+Vic Buckingham,"01 Jan, 1965","01 Jan, 1968",Fulham
+Bedford Jezzard,"01 Jun, 1958","31 Dec, 1964",Fulham
+Duggie Livingstone,"01 Jan, 1956","31 May, 1958",Fulham
+Bill Dodgin(Snr),"01 Aug, 1949","01 Oct, 1953",Fulham
+Frank Osborne,"01 Sep, 1948","01 Jun, 1949",Fulham
+Jack Peart,"01 May, 1935","01 Sep, 1948",Fulham
+Jimmy Hogan,"01 Aug, 1934","01 Feb, 1935",Fulham
+James McIntyre,"01 Apr, 1931","01 Feb, 1934",Fulham
+Ned Liddell,"01 May, 1929","01 Apr, 1931",Fulham
+Joe Bradshaw,"01 Aug, 1926","01 May, 1929",Fulham
+Andy Ducat,"01 May, 1924","01 May, 1926",Fulham
+Phil Kelso,"01 Aug, 1909","01 May, 1924",Fulham
+Harry Bradshaw,"01 Apr, 1904","01 Apr, 1909",Fulham
+Josep Guardiola,"01 Jul, 2016",Present,Man City
+Manuel Pellegrini,"14 Jun, 2013","30 Jun, 2016",Man City
+Brian Kidd,"13 May, 2013","14 Jun, 2013",Man City
+Roberto Mancini,"20 Dec, 2009","13 May, 2013",Man City
+Mark Hughes,"04 Jun, 2008","20 Dec, 2009",Man City
+Sven-Goran Eriksson,"06 Jul, 2007","02 Jun, 2008",Man City
+Stuart Pearce,"11 Mar, 2005","14 May, 2007",Man City
+Kevin Keegan,"24 May, 2001","11 Mar, 2005",Man City
+Joe Royle,"18 Feb, 1998","21 May, 2001",Man City
+Frank Clark,"29 Dec, 1996","17 Feb, 1998",Man City
+Phil Neal,"08 Nov, 1996","29 Dec, 1996",Man City
+Steve Coppell,"06 Oct, 1996","08 Nov, 1996",Man City
+Alan Ball,"02 Jul, 1995","27 Aug, 1996",Man City
+Brian Horton,"28 Aug, 1993","16 May, 1995",Man City
+Tony Book,"26 Aug, 1993","28 Aug, 1993",Man City
+Peter Reid,"15 Nov, 1990","26 Aug, 1993",Man City
+Howard Kendall,"06 Dec, 1989","05 Nov, 1990",Man City
+Mel Machin,"01 May, 1987","30 Nov, 1989",Man City
+Jimmy Frizzell,"01 Oct, 1986","01 May, 1987",Man City
+Billy McNeill,"30 Jun, 1983","22 Sep, 1986",Man City
+John Benson,"03 Feb, 1983","07 Jun, 1983",Man City
+John Bond,"01 Oct, 1980","03 Feb, 1983",Man City
+Malcolm Allison,"16 Jul, 1979","01 Oct, 1980",Man City
+Tony Book,"12 Apr, 1974","01 Jan, 1979",Man City
+Ron Saunders,"22 Nov, 1973","12 Apr, 1974",Man City
+Johnny Hart,"01 May, 1973","16 Nov, 1973",Man City
+Malcolm Allison,"12 Jun, 1972","30 Mar, 1973",Man City
+Joe Mercer,"01 Jul, 1965","12 Jun, 1971",Man City
+George Poyser,"01 May, 1963","01 Apr, 1965",Man City
+Leslie McDowall,"01 Jun, 1950","01 May, 1963",Man City
+"John ""Jock"" Thomson","01 Jun, 1947","01 Feb, 1950",Man City
+Sam Cowan,"01 Nov, 1946","01 Jun, 1947",Man City
+Wilf Wild,"01 Mar, 1932","01 Nov, 1946",Man City
+Peter Hodge,"01 May, 1926","01 Mar, 1932",Man City
+David Ashworth,"01 Jul, 1924","01 Nov, 1925",Man City
+Ernest Magnall,"01 Aug, 1912","01 May, 1924",Man City
+Harry Newbould,"01 Jul, 1906","31 Jul, 1912",Man City
+Tom Maley,"01 Jul, 1902","01 Jul, 1906",Man City
+Sam Omerod,"01 Aug, 1895","01 Jul, 1902",Man City
+Joshua Parlby,"01 Aug, 1893","31 May, 1895",Man City
+Lawrence Furniss,"01 Aug, 1889","31 May, 1893",Man City
+Mauricio Pochettino,"01 Jul, 2023",Present,Chelsea
+Frank Lampard,"06 Apr, 2023","30 Jun, 2023",Chelsea
+Graham Potter,"08 Sep, 2022","03 Apr, 2023",Chelsea
+Thomas Tuchel,"26 Jan, 2021","07 Sep, 2022",Chelsea
+Frank Lampard,"04 Jul, 2019","25 Jan, 2021",Chelsea
+Maurizio Sarri,"14 Jul, 2018","16 Jun, 2019",Chelsea
+Antonio Conte,"03 Jul, 2016","13 Jul, 2018",Chelsea
+Guus Hiddink,"20 Dec, 2015","03 Jul, 2016",Chelsea
+Steve Holland,"18 Dec, 2015","20 Dec, 2015",Chelsea
+Eddie Newton,"18 Dec, 2015","20 Dec, 2015",Chelsea
+Jose Mourinho,"03 Jun, 2013","17 Dec, 2015",Chelsea
+Rafael Benitez,"21 Nov, 2012","29 May, 2013",Chelsea
+Roberto Di Matteo,"04 Mar, 2012","21 Nov, 2012",Chelsea
+Andre Villas-Boas,"22 Jun, 2011","04 Mar, 2012",Chelsea
+Carlo Ancelotti,"01 Jun, 2009","22 May, 2011",Chelsea
+Guus Hiddink,"16 Feb, 2009","31 May, 2009",Chelsea
+Ray Wilkins,"09 Feb, 2009","16 Feb, 2009",Chelsea
+Felipe Scolari,"11 Jun, 2008","09 Feb, 2009",Chelsea
+Avram Grant,"20 Sep, 2007","24 May, 2008",Chelsea
+Jose Mourinho,"02 Jun, 2004","20 Sep, 2007",Chelsea
+Claudio Ranieri,"18 Sep, 2000","31 May, 2004",Chelsea
+Ray Wilkins,"13 Sep, 2000","17 Sep, 2000",Chelsea
+Graham Rix,"13 Sep, 2000","17 Sep, 2000",Chelsea
+Gianluca Vialli,"12 Feb, 1998","12 Sep, 2000",Chelsea
+Ruud Gullit,"10 May, 1996","12 Feb, 1998",Chelsea
+Glenn Hoddle,"04 Jun, 1993","10 May, 1996",Chelsea
+David Webb,"15 Feb, 1993","11 May, 1993",Chelsea
+Ian Porterfield,"11 Jun, 1991","15 Feb, 1993",Chelsea
+Bobby Campbell,"06 Mar, 1988","07 May, 1991",Chelsea
+John Hollins,"11 Jun, 1985","06 Mar, 1988",Chelsea
+John Neal,"01 May, 1981","11 Jun, 1985",Chelsea
+Geoff Hurst,"13 Sep, 1979","30 Apr, 1981",Chelsea
+Danny Blanchflower,"14 Dec, 1978","11 Sep, 1979",Chelsea
+Frank Upson,"13 Dec, 1978","14 Dec, 1978",Chelsea
+Ken Shellito,"07 Jul, 1977","13 Dec, 1978",Chelsea
+Eddie McCreadie,"16 Apr, 1975","01 Jul, 1977",Chelsea
+Ron Suart,"03 Oct, 1974","16 Apr, 1975",Chelsea
+Dave Sexton,"01 Oct, 1967","03 Oct, 1974",Chelsea
+Tommy Docherty,"01 Oct, 1962","01 Oct, 1967",Chelsea
+Ted Drake,"01 Jun, 1952","30 Sep, 1961",Chelsea
+Billy Birrell,"01 May, 1939","31 May, 1952",Chelsea
+A Leslie Knighton,"01 Aug, 1933","30 Apr, 1939",Chelsea
+David Calderhead,"01 Aug, 1907","01 Jun, 1933",Chelsea
+John Tait Robertson,"01 Apr, 1905","01 Oct, 1907",Chelsea
+Jurgen Klopp,"08 Oct, 2015",Present,Liverpool
+Brendan Rodgers,"01 Jun, 2012","04 Oct, 2015",Liverpool
+Kenny Dalglish,"08 Jan, 2011","16 May, 2012",Liverpool
+Roy Hodgson,"01 Jul, 2010","08 Jan, 2011",Liverpool
+Rafael Benitez,"16 Jun, 2004","03 Jun, 2010",Liverpool
+Gerard Houllier,"12 Nov, 1998","24 May, 2004",Liverpool
+Gerard Houllier,"01 Jul, 1998","12 Nov, 1998",Liverpool
+Roy Evans,"28 Jan, 1994","12 Nov, 1998",Liverpool
+Graeme Souness,"16 Apr, 1991","28 Jan, 1994",Liverpool
+Ronnie Moran,"22 Feb, 1991","16 Apr, 1991",Liverpool
+Kenny Dalglish,"30 May, 1985","22 Feb, 1991",Liverpool
+Joe Fagan,"23 May, 1983","30 May, 1985",Liverpool
+Bob Paisley,"26 Jul, 1974","23 May, 1983",Liverpool
+Bill Shankly,"01 Dec, 1959","12 Jul, 1974",Liverpool
+Phil Taylor,"01 May, 1956","30 Nov, 1959",Liverpool
+Don Welsh,"01 Mar, 1951","01 May, 1956",Liverpool
+George Kay,"01 May, 1936","28 Feb, 1951",Liverpool
+George Patterson,"01 Feb, 1928","01 May, 1936",Liverpool
+Matt McQueen,"01 Feb, 1923","01 Feb, 1928",Liverpool
+David Ashworth,"01 Dec, 1920","01 Feb, 1922",Liverpool
+Tom Watson,"01 Aug, 1896","31 May, 1915",Liverpool
+John McKenna,"01 Aug, 1892","01 Aug, 1896",Liverpool
+Erik ten Hag,"01 Jul, 2022",Present,Man Utd
+Ralf Rangnick,"03 Dec, 2021","31 May, 2022",Man Utd
+Michael Carrick,"21 Nov, 2021","03 Dec, 2021",Man Utd
+Ole Gunnar Solskjaer,"19 Dec, 2018","21 Nov, 2021",Man Utd
+Jose Mourinho,"27 May, 2016","18 Dec, 2018",Man Utd
+Louis van Gaal,"19 May, 2014","23 May, 2016",Man Utd
+Ryan Giggs,"22 Apr, 2014","19 May, 2014",Man Utd
+David Moyes,"19 May, 2013","22 Apr, 2014",Man Utd
+Alex Ferguson,"06 Nov, 1986","19 May, 2013",Man Utd
+Ron Atkinson,"01 Jun, 1981","06 Nov, 1986",Man Utd
+Dave Sexton,"14 Jul, 1977","01 Apr, 1981",Man Utd
+Tommy Docherty,"22 Dec, 1972","03 Jul, 1977",Man Utd
+Frank O'Farrell,"08 Jun, 1971","19 Dec, 1972",Man Utd
+Matt Busby,"28 Dec, 1970","02 Jun, 1971",Man Utd
+Wilf McGuinness,"10 Aug, 1970","28 Dec, 1970",Man Utd
+Matt Busby,"01 Feb, 1945","08 Jun, 1969",Man Utd
+Walter Crickmer,"01 Aug, 1944","01 Feb, 1945",Man Utd
+Jimmy Porter,"01 Aug, 1938","31 May, 1944",Man Utd
+Scott Duncan,"01 Jun, 1932","01 Sep, 1937",Man Utd
+Walter Crickmer,"01 Apr, 1931","01 Jun, 1932",Man Utd
+Herbert Bamlett,"01 Apr, 1927","01 Apr, 1931",Man Utd
+Clarence Hildrith,"01 Oct, 1926","01 Apr, 1927",Man Utd
+John Chapman,"01 Oct, 1921","01 Oct, 1926",Man Utd
+John Robson,"01 Dec, 1914","01 Oct, 1921",Man Utd
+Ernest Magnall,"01 Sep, 1900","01 Sep, 1912",Man Utd
+Eddie Howe,"08 Nov, 2021",Present,Newcastle
+Graeme Jones,"20 Oct, 2021","08 Nov, 2021",Newcastle
+Steve Bruce,"17 Jul, 2019","20 Oct, 2021",Newcastle
+Ben Dawson,"01 Jul, 2019","17 Jul, 2019",Newcastle
+Rafael Benitez,"11 Mar, 2016","01 Jul, 2019",Newcastle
+Steve McClaren,"10 Jun, 2015","11 Mar, 2016",Newcastle
+John Carver,"31 Dec, 2014","09 Jun, 2015",Newcastle
+Alan Pardew,"09 Dec, 2010","31 Dec, 2014",Newcastle
+Chris Hughton,"01 Jun, 2009","06 Dec, 2010",Newcastle
+Alan Shearer,"02 Apr, 2009","31 May, 2009",Newcastle
+Joe Kinnear,"29 Sep, 2008","02 Apr, 2009",Newcastle
+Chris Hughton,"08 Sep, 2008","29 Sep, 2008",Newcastle
+Kevin Keegan,"16 Jan, 2008","04 Sep, 2008",Newcastle
+Nigel Pearson,"09 Jan, 2008","16 Jan, 2008",Newcastle
+Sam Allardyce,"15 May, 2007","09 Jan, 2008",Newcastle
+Nigel Pearson,"06 May, 2007","15 May, 2007",Newcastle
+Glenn Roeder,"02 Feb, 2006","06 May, 2007",Newcastle
+Graeme Souness,"13 Sep, 2004","02 Feb, 2006",Newcastle
+John Carver,"30 Aug, 2004","13 Sep, 2004",Newcastle
+Bobby Robson,"02 Sep, 1999","30 Aug, 2004",Newcastle
+Steve Clarke,"28 Aug, 1999","02 Sep, 1999",Newcastle
+Ruud Gullit,"27 Aug, 1998","28 Aug, 1999",Newcastle
+Kenny Dalglish,"14 Jan, 1997","27 Aug, 1998",Newcastle
+Terry McDermott,"08 Jan, 1997","14 Jan, 1997",Newcastle
+Kevin Keegan,"05 Feb, 1992","08 Jan, 1997",Newcastle
+Ossie Ardiles,"26 Mar, 1991","05 Feb, 1992",Newcastle
+Jim Smith,"04 Dec, 1988","26 Mar, 1991",Newcastle
+Colin Suggett,"02 Nov, 1988","04 Dec, 1988",Newcastle
+Willie McFaul,"10 Sep, 1985","10 Oct, 1988",Newcastle
+Jack Charlton,"14 Aug, 1984","10 Aug, 1985",Newcastle
+Arthur Cox,"01 Sep, 1980","24 May, 1984",Newcastle
+Bill McGarry,"18 Nov, 1977","31 Aug, 1980",Newcastle
+Richard Dinnis,"02 Feb, 1977","09 Nov, 1977",Newcastle
+Gordon Lee,"12 Jun, 1975","30 Jan, 1977",Newcastle
+Joe Harvey,"01 Jun, 1962","01 Jun, 1975",Newcastle
+Norman Smith,"01 Oct, 1961","01 Jun, 1962",Newcastle
+Charlie Mitten,"01 Jun, 1958","01 Oct, 1961",Newcastle
+Stan Seymour,"01 Jan, 1956","01 Jun, 1958",Newcastle
+Duggie Livingstone,"01 Aug, 1954","31 Jul, 1956",Newcastle
+Stan Seymour,"01 Dec, 1950","01 Dec, 1954",Newcastle
+George Martin,"01 May, 1947","01 Dec, 1950",Newcastle
+Stan Seymour,"01 Sep, 1939","01 Mar, 1947",Newcastle
+Tom Mather,"01 Jun, 1935","01 Sep, 1939",Newcastle
+Andy Cunningham,"01 Jan, 1930","31 May, 1935",Newcastle
+Frank Watt,"01 Aug, 1895","01 Jan, 1930",Newcastle
+Ange Postecoglou,"06 Jun, 2023",Present,Tottenham Hotspur
+Ryan Mason,"24 Apr, 2023","05 Jun, 2023",Tottenham Hotspur
+Cristian Stellini,"26 Mar, 2023","24 Apr, 2023",Tottenham Hotspur
+Antonio Conte,"02 Nov, 2021","26 Mar, 2023",Tottenham Hotspur
+Nuno Espirito Santo,"30 Jun, 2021","01 Nov, 2021",Tottenham Hotspur
+Ryan Mason,"19 Apr, 2021","29 Jun, 2021",Tottenham Hotspur
+Jose Mourinho,"20 Nov, 2019","19 Apr, 2021",Tottenham Hotspur
+Mauricio Pochettino,"27 May, 2014","19 Nov, 2019",Tottenham Hotspur
+Tim Sherwood,"16 Dec, 2013","13 May, 2014",Tottenham Hotspur
+Andre Villas-Boas,"03 Jul, 2012","16 Dec, 2013",Tottenham Hotspur
+Harry Redknapp,"25 Oct, 2008","15 Jun, 2012",Tottenham Hotspur
+Juande Ramos,"29 Oct, 2007","25 Oct, 2008",Tottenham Hotspur
+Clive Allen,"26 Oct, 2007","29 Oct, 2007",Tottenham Hotspur
+Martin Jol,"05 Nov, 2004","26 Oct, 2007",Tottenham Hotspur
+Jacques Santini,"03 Jun, 2004","05 Nov, 2004",Tottenham Hotspur
+David Pleat,"21 Sep, 2003","03 Jun, 2004",Tottenham Hotspur
+Glenn Hoddle,"02 Apr, 2001","21 Sep, 2003",Tottenham Hotspur
+David Pleat,"16 Mar, 2001","02 Apr, 2001",Tottenham Hotspur
+George Graham,"01 Oct, 1998","16 Mar, 2001",Tottenham Hotspur
+Chris Hughton,"07 Sep, 1998","01 Oct, 1998",Tottenham Hotspur
+David Pleat,"07 Sep, 1998","01 Oct, 1998",Tottenham Hotspur
+Christian Gross,"19 Nov, 1997","05 Sep, 1998",Tottenham Hotspur
+Gerry Francis,"15 Nov, 1994","19 Nov, 1997",Tottenham Hotspur
+Steve Perryman,"01 Nov, 1994","15 Nov, 1994",Tottenham Hotspur
+Ossie Ardiles,"19 Jun, 1993","01 Nov, 1994",Tottenham Hotspur
+Doug Livermore,"27 May, 1992","19 Jun, 1993",Tottenham Hotspur
+Peter Shreeves,"23 Jul, 1991","15 May, 1992",Tottenham Hotspur
+Terry Venables,"28 Nov, 1987","30 Jun, 1991",Tottenham Hotspur
+David Pleat,"16 May, 1986","23 Oct, 1987",Tottenham Hotspur
+Peter Shreeves,"25 Jun, 1984","13 May, 1986",Tottenham Hotspur
+Keith Burkinshaw,"14 Jul, 1976","25 Jun, 1984",Tottenham Hotspur
+Terry Neill,"11 Sep, 1974","23 Jun, 1976",Tottenham Hotspur
+Bill Nicholson,"01 Oct, 1958","29 Aug, 1974",Tottenham Hotspur
+Jimmy Anderson,"01 Jul, 1955","01 Oct, 1958",Tottenham Hotspur
+Arthur Rowe,"01 May, 1949","01 Jul, 1955",Tottenham Hotspur
+Joe Hulme,"01 Jan, 1946","01 May, 1949",Tottenham Hotspur
+Arthur Turner,"01 Aug, 1942","01 Jan, 1946",Tottenham Hotspur
+Peter McWilliam,"01 May, 1938","01 Jun, 1942",Tottenham Hotspur
+Jack Tresadern,"01 Jun, 1935","30 Apr, 1938",Tottenham Hotspur
+Percy Smith,"01 Jan, 1930","01 Apr, 1935",Tottenham Hotspur
+Billy Minter,"01 Feb, 1927","01 Nov, 1929",Tottenham Hotspur
+Peter McWilliam,"01 Jan, 1913","01 Feb, 1927",Tottenham Hotspur
+Fred Kirkham,"01 Aug, 1907","31 May, 1908",Tottenham Hotspur
+John Cameron,"01 Aug, 1899","31 May, 1906",Tottenham Hotspur
+Frank Brettell,"01 Aug, 1898","31 May, 1899",Tottenham Hotspur
+Unai Emery,"24 Oct, 2022",Present,Aston Villa
+Aaron Danks,"21 Oct, 2022","24 Oct, 2022",Aston Villa
+Steven Gerrard,"11 Nov, 2021","20 Oct, 2022",Aston Villa
+Dean Smith,"10 Oct, 2018","07 Nov, 2021",Aston Villa
+Kevin MacDonald,"03 Oct, 2018","10 Oct, 2018",Aston Villa
+Steve Bruce,"12 Oct, 2016","03 Oct, 2018",Aston Villa
+Roberto Di Matteo,"02 Jun, 2016","03 Oct, 2016",Aston Villa
+Eric Black,"30 Mar, 2016","02 Jun, 2016",Aston Villa
+Remi Garde,"03 Nov, 2015","30 Mar, 2016",Aston Villa
+Kevin MacDonald,"25 Oct, 2015","03 Nov, 2015",Aston Villa
+Tim Sherwood,"17 Feb, 2015","25 Oct, 2015",Aston Villa
+Scott Marshall,"11 Feb, 2015","17 Feb, 2015",Aston Villa
+Andy Marshall,"11 Feb, 2015","17 Feb, 2015",Aston Villa
+Paul Lambert,"04 Jun, 2012","11 Feb, 2015",Aston Villa
+Alex McLeish,"17 Jun, 2011","15 May, 2012",Aston Villa
+Gerard Houllier,"21 Sep, 2010","01 Jun, 2011",Aston Villa
+Kevin MacDonald,"09 Aug, 2010","21 Sep, 2010",Aston Villa
+Martin O'Neill,"05 Aug, 2006","09 Aug, 2010",Aston Villa
+Roy Aitken,"19 Jul, 2006","04 Aug, 2006",Aston Villa
+David O'Leary,"20 May, 2003","19 Jul, 2006",Aston Villa
+Graham Taylor,"05 Feb, 2002","14 May, 2003",Aston Villa
+John Deehan,"24 Jan, 2002","05 Feb, 2002",Aston Villa
+Stuart Gray,"24 Jan, 2002","05 Feb, 2002",Aston Villa
+John Gregory,"25 Feb, 1998","24 Jan, 2002",Aston Villa
+Brian Little,"25 Nov, 1994","24 Feb, 1998",Aston Villa
+Ron Atkinson,"07 Jul, 1991","10 Nov, 1994",Aston Villa
+Jozef Venglos,"22 Jul, 1990","28 May, 1991",Aston Villa
+Graham Taylor,"18 May, 1987","14 Jul, 1990",Aston Villa
+Billy McNeill,"22 Sep, 1986","08 May, 1987",Aston Villa
+Graham Turner,"16 Jul, 1984","14 Sep, 1986",Aston Villa
+Tony Barton,"09 Feb, 1982","18 Jun, 1984",Aston Villa
+Ron Saunders,"04 Jun, 1974","09 Feb, 1982",Aston Villa
+Vic Crowe,"01 Jan, 1970","06 May, 1974",Aston Villa
+Tommy Docherty,"01 Dec, 1968","01 Jan, 1970",Aston Villa
+Tommy Cummings,"01 Jul, 1967","30 Nov, 1968",Aston Villa
+Dick Taylor,"01 Jul, 1964","31 May, 1967",Aston Villa
+Joe Mercer,"01 Dec, 1958","31 Jul, 1964",Aston Villa
+Eric Houghton,"01 Sep, 1953","30 Nov, 1958",Aston Villa
+George Martin,"01 Dec, 1950","31 Aug, 1953",Aston Villa
+Alex Massie,"01 Aug, 1945","31 Aug, 1950",Aston Villa
+Jimmy Hogan,"01 Nov, 1936","01 Sep, 1939",Aston Villa
+Jimmy McMullan,"01 Jun, 1934","31 Oct, 1935",Aston Villa
+W J Smith,"01 Aug, 1926","31 May, 1934",Aston Villa
+George Ramsey,"01 Aug, 1884","31 May, 1926",Aston Villa
+David Moyes,"30 Dec, 2019",Present,West Ham
+Manuel Pellegrini,"22 May, 2018","28 Dec, 2019",West Ham
+David Moyes,"07 Nov, 2017","16 May, 2018",West Ham
+Slaven Bilic,"09 Jun, 2015","06 Nov, 2017",West Ham
+Sam Allardyce,"01 Jun, 2011","25 May, 2015",West Ham
+Kevin Keen,"16 May, 2011","01 Jun, 2011",West Ham
+Avram Grant,"03 Jun, 2010","16 May, 2011",West Ham
+Gianfranco Zola,"15 Sep, 2008","11 May, 2010",West Ham
+Kevin Keen,"03 Sep, 2008","15 Sep, 2008",West Ham
+Alan Curbishley,"13 Dec, 2006","03 Sep, 2008",West Ham
+Kevin Keen,"11 Dec, 2006","13 Dec, 2006",West Ham
+Alan Pardew,"20 Oct, 2003","11 Dec, 2006",West Ham
+Trevor Brooking,"24 Aug, 2003","20 Oct, 2003",West Ham
+Glenn Roeder,"01 Jul, 2003","24 Aug, 2003",West Ham
+Trevor Brooking,"24 Apr, 2003","12 May, 2003",West Ham
+Glenn Roeder,"09 May, 2001","24 Apr, 2003",West Ham
+Harry Redknapp,"10 Aug, 1994","09 May, 2001",West Ham
+Billy Bonds,"23 Feb, 1990","10 Aug, 1994",West Ham
+Lou Macari,"03 Jul, 1989","18 Feb, 1990",West Ham
+John Lyall,"16 Aug, 1974","05 Jun, 1989",West Ham
+Ron Greenwood,"01 Apr, 1961","16 Aug, 1974",West Ham
+Ted Fenton,"01 Aug, 1950","31 Mar, 1961",West Ham
+Charlie Paynter,"01 Nov, 1932","01 Aug, 1950",West Ham
+Syd King,"01 Apr, 1902","01 Nov, 1932",West Ham
+Andoni Iraola,"19 Jun, 2023",Present,Bournemouth
+Gary O'Neil,"30 Aug, 2022","19 Jun, 2023",Bournemouth
+Scott Parker,"28 Jun, 2021","30 Aug, 2022",Bournemouth
+Jason Tindall,"08 Aug, 2020","28 Jun, 2021",Bournemouth
+Eddie Howe,"12 Oct, 2012","01 Aug, 2020",Bournemouth
+Paul Groves,"26 Mar, 2012","03 Oct, 2012",Bournemouth
+Lee Bradbury,"16 Jan, 2011","25 Mar, 2012",Bournemouth
+Eddie Howe,"01 Jan, 2009","16 Jan, 2011",Bournemouth
+Jimmy Quinn,"02 Sep, 2008","01 Jan, 2009",Bournemouth
+Kevin Bond,"13 Oct, 2006","01 Sep, 2008",Bournemouth
+Joe Roach,"10 Sep, 2006","13 Oct, 2006",Bournemouth
+Stuart Murdoch,"10 Sep, 2006","13 Oct, 2006",Bournemouth
+Sean O'Driscoll,"19 Aug, 2000","10 Sep, 2006",Bournemouth
+Mel Machin,"01 Sep, 1994","19 Aug, 2000",Bournemouth
+John Williams,"05 Aug, 1994","01 Sep, 1994",Bournemouth
+Tony Pulis,"09 Jun, 1992","05 Aug, 1994",Bournemouth
+Harry Redknapp,"19 Oct, 1983","09 Jun, 1992",Bournemouth
+Don Megson,"09 Mar, 1983","19 Oct, 1983",Bournemouth
+David Webb,"01 Dec, 1980","10 Feb, 1982",Bournemouth
+Alec Stock,"25 Jan, 1979","01 Dec, 1980",Bournemouth
+John Benson,"23 Jan, 1975","01 Jan, 1978",Bournemouth
+Tony Nelson,"02 Jan, 1975","23 Jan, 1975",Bournemouth
+Trevor Hartley,"30 Nov, 1974","02 Jan, 1978",Bournemouth
+John Bond,"01 May, 1970","27 Nov, 1973",Bournemouth
+Fred Cox,"01 Apr, 1965","30 Apr, 1970",Bournemouth
+Reg Flewin,"01 Sep, 1963","01 Apr, 1965",Bournemouth
+Bill McGarry,"01 Mar, 1961","01 Jul, 1963",Bournemouth
+Don Welsh,"01 Jul, 1958","28 Feb, 1961",Bournemouth
+Fred Cox,"01 Apr, 1956","01 Jul, 1958",Bournemouth
+Jack Bruton,"01 Mar, 1950","31 Mar, 1956",Bournemouth
+Harry Lowe,"01 Aug, 1947","28 Feb, 1950",Bournemouth
+Harry Kinghorn,"01 Aug, 1939","31 May, 1947",Bournemouth
+Charlie Bell,"01 Feb, 1936","31 May, 1939",Bournemouth
+Bob Crompton,"01 Jun, 1935","01 Feb, 1936",Bournemouth
+Billy Birrell,"01 Aug, 1930","30 Apr, 1935",Bournemouth
+Frank Richards,"01 Jul, 1928","31 May, 1930",Bournemouth
+Leslie Knighton,"01 Jul, 1925","01 Jul, 1928",Bournemouth
+Harry Kinghorn,"01 Aug, 1923","31 May, 1925",Bournemouth
+Vincent Kitcher,"01 Aug, 1914","31 May, 1923",Bournemouth
+Thomas Frank,"16 Oct, 2018",Present,Brentford
+Dean Smith,"30 Nov, 2015","16 Oct, 2018",Brentford
+Lee Carsley,"28 Sep, 2015","30 Nov, 2015",Brentford
+Marinus Dijkhuizen,"01 Jun, 2015","28 Sep, 2015",Brentford
+Mark Warburton,"10 Dec, 2013","01 Jun, 2015",Brentford
+Uwe Rosler,"10 Jun, 2011","07 Dec, 2013",Brentford
+Nicky Forster,"03 Feb, 2011","08 Jun, 2011",Brentford
+Andy Scott,"11 Dec, 2007","03 Feb, 2011",Brentford
+Terry Butcher,"07 May, 2007","11 Dec, 2007",Brentford
+Barry Quinn,"10 Apr, 2007","07 May, 2007",Brentford
+Scott Fitzgerald,"18 Nov, 2006","10 Apr, 2007",Brentford
+Leroy Rosenior,"14 Jun, 2006","18 Nov, 2006",Brentford
+Martin Allen,"18 Mar, 2004","31 May, 2006",Brentford
+Garry Thompson,"14 Mar, 2004","18 Mar, 2004",Brentford
+Wally Downes,"28 Jun, 2002","14 Mar, 2004",Brentford
+Steve Coppell,"08 May, 2001","05 Jun, 2002",Brentford
+Ray Lewington,"20 Nov, 2000","07 May, 2001",Brentford
+Ron Noades,"01 Jul, 1998","20 Nov, 2000",Brentford
+Mickey Adams,"05 Nov, 1997","01 Jul, 1998",Brentford
+Eddie May,"05 Aug, 1997","05 Nov, 1997",Brentford
+David Webb,"17 May, 1993","04 Aug, 1997",Brentford
+Phil Holder,"24 Aug, 1990","11 May, 1993",Brentford
+Steve Perryman,"01 Jan, 1987","15 Aug, 1990",Brentford
+Frank McLintock,"09 Feb, 1984","01 Jan, 1987",Brentford
+Frank Blunstone,"02 Feb, 1984","09 Feb, 1984",Brentford
+Fred Callaghan,"01 Mar, 1980","02 Feb, 1984",Brentford
+Bill Dodgin(Jnr),"16 Sep, 1976","01 Mar, 1980",Brentford
+John Docherty,"20 Jan, 1975","07 Sep, 1976",Brentford
+Mike Everitt,"01 Sep, 1973","15 Jan, 1975",Brentford
+Frank Blunstone,"01 Dec, 1969","11 Jul, 1973",Brentford
+Jimmy Sirrel,"01 Sep, 1967","30 Nov, 1969",Brentford
+Billy Gray,"01 Aug, 1966","01 Sep, 1967",Brentford
+Tommy Cavanagh,"01 Jan, 1965","01 Mar, 1966",Brentford
+Malcolm MacDonald,"01 May, 1957","01 Jan, 1965",Brentford
+Bill Dodgin(Snr),"01 Oct, 1953","01 May, 1957",Brentford
+Tommy Lawton,"01 Jan, 1953","30 Sep, 1953",Brentford
+Jimmy Blain,"01 Aug, 1952","01 Jan, 1953",Brentford
+Jackie Gibbons,"01 Feb, 1949","01 Aug, 1952",Brentford
+Harry Curtis,"01 May, 1926","01 Feb, 1949",Brentford
+Fred Halliday,"01 Dec, 1924","01 May, 1926",Brentford
+Archie Mitchell,"01 Aug, 1921","01 Dec, 1922",Brentford
+Fred Halliday,"01 Aug, 1915","01 Aug, 1921",Brentford
+Ephraim Rhodes,"01 Aug, 1912","31 May, 1915",Brentford
+Fred Halliday,"01 Aug, 1908","31 May, 1912",Brentford
+W G Brown,"01 Aug, 1906","31 May, 1908",Brentford
+Dick Molyneux,"01 Aug, 1903","31 May, 1906",Brentford
+Will Lewis,"01 Aug, 1900","31 May, 1903",Brentford
+Roberto De Zerbi,"20 Sep, 2022",Present,Brighton
+Graham Potter,"20 May, 2019","07 Sep, 2022",Brighton
+Chris Hughton,"31 Dec, 2014","13 May, 2019",Brighton
+Nathan Jones,"22 Dec, 2014","31 Dec, 2014",Brighton
+Sami Hyypia,"07 Jun, 2014","22 Dec, 2014",Brighton
+Oscar Garcia,"26 Jun, 2013","12 May, 2014",Brighton
+Gus Poyet,"10 Nov, 2009","24 Jun, 2013",Brighton
+Martin Hinshelwood,"01 Nov, 2009","10 Nov, 2009",Brighton
+Russell Slade,"06 Mar, 2009","01 Nov, 2009",Brighton
+Dean White,"21 Feb, 2009","06 Mar, 2009",Brighton
+Bob Booker,"21 Feb, 2009","06 Mar, 2009",Brighton
+Mickey Adams,"08 May, 2008","21 Feb, 2009",Brighton
+Dean Wilkins,"08 Sep, 2006","08 May, 2008",Brighton
+Mark McGhee,"28 Oct, 2003","08 Sep, 2006",Brighton
+Bob Booker,"10 Oct, 2003","27 Oct, 2003",Brighton
+Steve Coppell,"07 Oct, 2002","09 Oct, 2003",Brighton
+Martin Hinshelwood,"15 Jul, 2002","07 Oct, 2002",Brighton
+Peter Taylor,"17 Oct, 2001","31 May, 2002",Brighton
+Bob Booker,"10 Oct, 2001","17 Oct, 2001",Brighton
+Martin Hinshelwood,"10 Oct, 2001","17 Oct, 2001",Brighton
+Mickey Adams,"12 Apr, 1999","10 Oct, 2001",Brighton
+Jeff Wood,"22 Jan, 1999","08 Apr, 1999",Brighton
+Brian Horton,"26 Feb, 1998","22 Jan, 1999",Brighton
+Steve Gritt,"11 Dec, 1996","25 Feb, 1998",Brighton
+Jimmy Case,"21 Nov, 1995","04 Dec, 1996",Brighton
+Liam Brady,"15 Dec, 1993","20 Nov, 1995",Brighton
+Barry Lloyd,"05 Jan, 1987","04 Dec, 1993",Brighton
+Alan Mullery,"12 May, 1986","05 Jan, 1987",Brighton
+Chris Cattlin,"01 Oct, 1983","30 Apr, 1986",Brighton
+Jimmy Melia,"10 Dec, 1982","19 Oct, 1983",Brighton
+Mike Bailey,"01 Jun, 1981","06 Dec, 1982",Brighton
+Alan Mullery,"16 Jul, 1976","01 Jun, 1981",Brighton
+Peter Taylor (1),"20 Jul, 1974","16 Jul, 1976",Brighton
+Brian Clough,"01 Nov, 1973","20 Jul, 1974",Brighton
+Pat Saward,"17 Jun, 1970","22 Oct, 1973",Brighton
+Fred Goodwin,"01 Oct, 1968","01 May, 1970",Brighton
+Archie Macauley,"01 Apr, 1963","01 Oct, 1968",Brighton
+George Curtis,"01 Jun, 1961","01 Feb, 1963",Brighton
+Billy Lane,"01 Mar, 1951","31 May, 1961",Brighton
+Don Welsh,"01 Nov, 1947","01 Mar, 1951",Brighton
+Tommy Cook,"01 May, 1947","01 Nov, 1947",Brighton
+Charles Webb,"01 Aug, 1919","01 May, 1947",Brighton
+John Robson,"01 Aug, 1908","31 May, 1914",Brighton
+Frank Scott-Walford,"01 Aug, 1905","31 May, 1908",Brighton
+John Jackson,"01 Aug, 1901","31 May, 1905",Brighton
+Vincent Kompany,"14 Jun, 2022",Present,Burnley
+Michael Jackson,"15 Apr, 2022","14 Jun, 2022",Burnley
+Sean Dyche,"30 Oct, 2012","15 Apr, 2022",Burnley
+Terry Pashley,"13 Oct, 2012","30 Oct, 2012",Burnley
+Eddie Howe,"16 Jan, 2011","12 Oct, 2012",Burnley
+Stuart Gray,"29 Dec, 2010","16 Jan, 2011",Burnley
+Brian Laws,"13 Jan, 2010","29 Dec, 2010",Burnley
+Steve Davis,"07 Jan, 2010","13 Jan, 2010",Burnley
+Owen Coyle,"22 Nov, 2007","07 Jan, 2010",Burnley
+Steve Davis,"08 Nov, 2007","22 Nov, 2007",Burnley
+Steve Cotterill,"03 Jun, 2004","08 Nov, 2007",Burnley
+Stan Ternent,"02 Jun, 1998","03 Jun, 2004",Burnley
+Chris Waddle,"08 Jul, 1997","12 May, 1998",Burnley
+Adrian Heath,"07 Mar, 1996","27 Jun, 1997",Burnley
+Jimmy Mullen,"01 Oct, 1991","12 Apr, 1996",Burnley
+Frank Casper,"01 Jan, 1989","01 Oct, 1991",Burnley
+Brian Miller,"01 Jun, 1986","01 Jan, 1989",Burnley
+Tommy Cavanagh,"10 Oct, 1985","01 Jun, 1986",Burnley
+Martin Buchan,"22 Jun, 1985","10 Oct, 1985",Burnley
+John Benson,"01 Aug, 1984","22 Jun, 1985",Burnley
+John Bond,"14 Jun, 1983","01 Aug, 1984",Burnley
+Frank Casper,"19 Jan, 1983","01 Jun, 1983",Burnley
+Brian Miller,"16 Oct, 1979","19 Jan, 1983",Burnley
+Harry Potts,"20 Feb, 1977","16 Oct, 1979",Burnley
+Joe Brown,"07 Jan, 1976","20 Feb, 1977",Burnley
+Jimmy Adamson,"01 Feb, 1970","06 Jan, 1976",Burnley
+Harry Potts,"01 Feb, 1958","01 Feb, 1970",Burnley
+Billy Dougall,"01 Jul, 1957","01 Feb, 1958",Burnley
+Alan Brown,"01 Aug, 1954","01 Jul, 1957",Burnley
+Frank Hill,"01 Sep, 1948","01 Aug, 1954",Burnley
+Cliff Britton,"01 Oct, 1945","01 Sep, 1948",Burnley
+Alf Boland,"01 Aug, 1935","31 May, 1939",Burnley
+Tom Bromilow,"01 Oct, 1932","31 Jul, 1935",Burnley
+Albert Pickles,"01 Jan, 1925","30 Sep, 1932",Burnley
+John Haworth,"01 Jul, 1911","31 Dec, 1925",Burnley
+R H Wadge,"01 Aug, 1910","31 Jul, 1911",Burnley
+Spen Whittaker,"01 Sep, 1903","01 Apr, 1910",Burnley
+Ernest Magnall,"01 Jan, 1899","01 Sep, 1903",Burnley
+Harry Bradshaw,"01 Aug, 1896","01 Aug, 1899",Burnley
+Arthur F Sutcliffe,"01 Aug, 1893","01 Aug, 1896",Burnley
+Oliver Glasner,"20 Feb, 2024",Present,Crystal Palace
+Roy Hodgson,"21 Mar, 2023","19 Feb, 2024",Crystal Palace
+Patrick Vieira,"04 Jul, 2021","17 Mar, 2023",Crystal Palace
+Roy Hodgson,"12 Sep, 2017","01 Jun, 2021",Crystal Palace
+Frank de Boer,"26 Jun, 2017","11 Sep, 2017",Crystal Palace
+Sam Allardyce,"23 Dec, 2016","23 May, 2017",Crystal Palace
+Alan Pardew,"03 Jan, 2015","22 Dec, 2016",Crystal Palace
+Keith Millen,"27 Dec, 2014","03 Jan, 2015",Crystal Palace
+Neil Warnock,"27 Aug, 2014","27 Dec, 2014",Crystal Palace
+Keith Millen,"14 Aug, 2014","27 Aug, 2014",Crystal Palace
+Tony Pulis,"24 Nov, 2013","14 Aug, 2014",Crystal Palace
+Keith Millen,"23 Oct, 2013","24 Nov, 2013",Crystal Palace
+Ian Holloway,"03 Nov, 2012","23 Oct, 2013",Crystal Palace
+Curtis Fleming,"24 Oct, 2012","03 Nov, 2012",Crystal Palace
+Dougie Freedman,"01 Jan, 2011","24 Oct, 2012",Crystal Palace
+George Burley,"17 Jun, 2010","01 Jan, 2011",Crystal Palace
+Paul Hart,"02 Mar, 2010","02 May, 2010",Crystal Palace
+Neil Warnock,"11 Oct, 2007","02 Mar, 2010",Crystal Palace
+Peter Taylor,"14 Jun, 2006","08 Oct, 2007",Crystal Palace
+Iain Dowie,"22 Dec, 2003","22 May, 2006",Crystal Palace
+Kit Symons,"03 Nov, 2003","21 Dec, 2003",Crystal Palace
+Steve Kember,"18 Apr, 2003","03 Nov, 2003",Crystal Palace
+Terry Bullivant,"18 Apr, 2003","23 May, 2003",Crystal Palace
+Trevor Francis,"30 Nov, 2001","18 Apr, 2003",Crystal Palace
+Steve Kember,"03 Nov, 2001","30 Nov, 2001",Crystal Palace
+Terry Bullivant,"03 Nov, 2001","30 Nov, 2001",Crystal Palace
+Steve Bruce,"31 May, 2001","02 Nov, 2001",Crystal Palace
+Steve Kember,"29 Apr, 2001","31 May, 2001",Crystal Palace
+Alan Smith,"01 Aug, 2000","29 Apr, 2001",Crystal Palace
+Steve Coppell,"15 Jan, 1999","01 Aug, 2000",Crystal Palace
+Terry Venables,"04 Jun, 1998","15 Jan, 1999",Crystal Palace
+Ray Lewington,"29 Apr, 1998","10 May, 1998",Crystal Palace
+Ron Noades,"29 Apr, 1998","10 May, 1998",Crystal Palace
+Attilio Lombardo,"13 Mar, 1998","29 Apr, 1998",Crystal Palace
+Steve Coppell,"28 Feb, 1997","13 Mar, 1998",Crystal Palace
+Dave Bassett,"08 Feb, 1996","27 Feb, 1997",Crystal Palace
+Steve Coppell,"08 Jun, 1995","08 Feb, 1996",Crystal Palace
+Alan Smith,"03 Jun, 1993","15 May, 1995",Crystal Palace
+Steve Coppell,"03 Jun, 1984","17 May, 1993",Crystal Palace
+Dave Bassett,"17 May, 1984","21 May, 1984",Crystal Palace
+Alan Mullery,"24 Jun, 1982","14 May, 1984",Crystal Palace
+Steve Kember,"10 Nov, 1981","01 Jun, 1982",Crystal Palace
+Dario Gradi,"01 Feb, 1981","10 Nov, 1981",Crystal Palace
+Malcolm Allison,"01 Dec, 1980","01 Feb, 1981",Crystal Palace
+Ernie Walley,"01 Oct, 1980","01 Dec, 1980",Crystal Palace
+Terry Venables,"16 Jun, 1976","01 Oct, 1980",Crystal Palace
+Malcolm Allison,"30 Mar, 1973","19 May, 1976",Crystal Palace
+Bert Head,"01 Apr, 1966","30 Mar, 1972",Crystal Palace
+Dick Graham,"01 Mar, 1963","01 Jan, 1966",Crystal Palace
+Arthur Rowe,"01 Apr, 1960","30 Nov, 1962",Crystal Palace
+George Smith,"30 Jun, 1958","01 Apr, 1960",Crystal Palace
+Cyril Spiers,"01 Oct, 1954","30 Jun, 1958",Crystal Palace
+Laurie Scott,"01 Oct, 1951","01 Oct, 1954",Crystal Palace
+Charlie Slade,"01 Nov, 1950","31 Oct, 1951",Crystal Palace
+Fred Dawes,"01 Nov, 1950","31 Oct, 1951",Crystal Palace
+Ronnie Rooke,"31 May, 1949","01 Nov, 1950",Crystal Palace
+Jack Butler,"01 May, 1947","31 May, 1949",Crystal Palace
+George Irwin,"01 Jul, 1939","01 May, 1947",Crystal Palace
+Tom Bromilow,"01 Dec, 1936","01 Jul, 1939",Crystal Palace
+R S Moyes,"01 Jul, 1936","01 Dec, 1936",Crystal Palace
+Tom Bromilow,"01 Jul, 1935","30 Jun, 1936",Crystal Palace
+Jack Tresadern,"01 Oct, 1930","30 Jun, 1935",Crystal Palace
+Fred Maven,"01 Nov, 1927","01 Oct, 1930",Crystal Palace
+Alec Maley,"01 Nov, 1925","31 Oct, 1927",Crystal Palace
+Edmund Goodman,"01 Apr, 1907","01 Nov, 1925",Crystal Palace
+John T Robson,"01 Aug, 1905","01 Apr, 1907",Crystal Palace
+Sean Dyche,"30 Jan, 2023",Present,Everton
+Frank Lampard,"31 Jan, 2022","23 Jan, 2023",Everton
+Duncan Ferguson,"18 Jan, 2022","31 Jan, 2022",Everton
+Rafael Benitez,"30 Jun, 2021","16 Jan, 2022",Everton
+Carlo Ancelotti,"23 Dec, 2019","01 Jun, 2021",Everton
+Duncan Ferguson,"05 Dec, 2019","23 Dec, 2019",Everton
+Marco Silva,"31 May, 2018","05 Dec, 2019",Everton
+Sam Allardyce,"30 Nov, 2017","16 May, 2018",Everton
+David Unsworth,"23 Oct, 2017","30 Nov, 2017",Everton
+Ronald Koeman,"14 Jun, 2016","23 Oct, 2017",Everton
+Joe Royle,"12 May, 2016","14 Jun, 2016",Everton
+David Unsworth,"12 May, 2016","14 Jun, 2016",Everton
+Roberto Martinez,"05 Jun, 2013","12 May, 2016",Everton
+David Moyes,"15 Mar, 2002","05 Jun, 2013",Everton
+Walter Smith,"01 Jul, 1998","13 Mar, 2002",Everton
+Howard Kendall,"27 Jun, 1997","01 Jul, 1998",Everton
+Dave Watson,"01 Apr, 1997","31 May, 1998",Everton
+Joe Royle,"10 Nov, 1994","27 Mar, 1997",Everton
+Mike Walker,"07 Jan, 1994","08 Nov, 1994",Everton
+Jimmy Gabriel,"04 Dec, 1990","07 Jan, 1993",Everton
+Howard Kendall,"05 Nov, 1990","04 Dec, 1993",Everton
+Colin Harvey,"19 Jun, 1987","31 Oct, 1990",Everton
+Howard Kendall,"31 May, 1981","18 Jun, 1987",Everton
+Gordon Lee,"30 Jan, 1977","31 May, 1981",Everton
+Steve Burtenshaw,"10 Jan, 1977","30 Jan, 1977",Everton
+Billy Bingham,"28 May, 1973","10 Jan, 1977",Everton
+Tom Eggleston,"12 Apr, 1973","28 May, 1973",Everton
+Harry Catterick,"01 Apr, 1961","12 Apr, 1973",Everton
+Johnny Carey,"01 Oct, 1958","01 Apr, 1961",Everton
+Ian Buchan,"01 Feb, 1956","01 Oct, 1958",Everton
+Cliff Britton,"01 Aug, 1948","01 Feb, 1956",Everton
+Theo Kelly,"01 May, 1936","01 Sep, 1948",Everton
+Thomas H McIntosh,"01 Aug, 1919","31 May, 1935",Everton
+W J Sawyer,"01 Aug, 1918","31 May, 1919",Everton
+William C Cuff,"01 Aug, 1901","31 May, 1918",Everton
+Dick Molyneux,"01 Aug, 1889","31 May, 1901",Everton
+W E Barclay,"01 Aug, 1888","31 May, 1889",Everton
+Rob Edwards,"17 Nov, 2022",Present,Luton
+Nathan Jones,"28 May, 2020","10 Nov, 2022",Luton
+Graeme Jones,"07 May, 2019","28 May, 2020",Luton
+Mick Harford,"10 Jan, 2019","07 May, 2019",Luton
+Nathan Jones,"06 Jan, 2016","09 Jan, 2019",Luton
+Andy Awford,"18 Dec, 2015","06 Jan, 2016",Luton
+John Still,"26 Feb, 2013","18 Dec, 2015",Luton
+Paul Buckle,"06 Apr, 2012","25 Feb, 2013",Luton
+Gary Brabin,"28 Mar, 2011","01 Apr, 2012",Luton
+Richard Money,"30 Oct, 2009","28 Mar, 2011",Luton
+Mick Harford,"16 Jan, 2008","30 Oct, 2009",Luton
+Kevin Blackwell,"27 Mar, 2007","16 Jan, 2008",Luton
+Mike Newell,"23 Jun, 2003","15 Mar, 2007",Luton
+Joe Kinnear,"08 Feb, 2001","23 May, 2003",Luton
+Lil Fuccillo,"16 Nov, 2000","08 Feb, 2001",Luton
+Ricky Hill,"10 Jul, 2000","15 Nov, 2000",Luton
+Lennie Lawrence,"21 Dec, 1995","04 Jul, 2000",Luton
+Terry Westley,"03 Jul, 1995","18 Dec, 1995",Luton
+David Pleat,"06 Jun, 1991","14 Jun, 1995",Luton
+Jim Ryan,"11 Jan, 1990","13 May, 1991",Luton
+Terry Mancini,"03 Jan, 1990","11 Jan, 1990",Luton
+Ray Harford,"15 Jun, 1987","03 Jan, 1990",Luton
+John Moore,"03 Jun, 1986","15 Jun, 1987",Luton
+David Pleat,"25 Jan, 1978","16 May, 1986",Luton
+Harry Haslam,"05 May, 1972","23 Jan, 1978",Luton
+Alec Stock,"01 Dec, 1968","28 Apr, 1972",Luton
+Allan Brown,"01 Nov, 1966","01 Dec, 1968",Luton
+George Martin,"01 Feb, 1965","01 Nov, 1966",Luton
+Bill Harvey,"01 Jul, 1962","01 Nov, 1964",Luton
+Sam Bartram,"01 Jul, 1960","01 Jun, 1962",Luton
+Syd Owen,"01 May, 1959","01 Apr, 1960",Luton
+Dally Duncan,"01 Jun, 1947","01 Oct, 1958",Luton
+George Martin,"01 Aug, 1939","31 May, 1947",Luton
+Neil McBain,"01 Jun, 1938","01 Jan, 1939",Luton
+Ned Liddell,"01 Aug, 1936","01 Feb, 1938",Luton
+Harold Wightman,"01 Jun, 1931","01 Oct, 1935",Luton
+George Kay,"01 Dec, 1929","31 May, 1931",Luton
+John McCartney,"01 Sep, 1927","01 Dec, 1929",Luton
+George Thomson,"01 Feb, 1925","01 Oct, 1925",Luton
+Charlie Green,"01 Aug, 1901","31 May, 1928",Luton
+Nuno Espirito Santo,"20 Dec, 2023",Present,Nottingham Forest
+Steve Cooper,"21 Sep, 2021","19 Dec, 2023",Nottingham Forest
+Steven Reid,"16 Sep, 2021","21 Sep, 2021",Nottingham Forest
+Chris Hughton,"06 Oct, 2020","16 Sep, 2021",Nottingham Forest
+Sabri Lamouchi,"28 Jun, 2019","05 Oct, 2020",Nottingham Forest
+Martin O'Neill,"15 Jan, 2019","28 Jun, 2019",Nottingham Forest
+Simon Ireland,"11 Jan, 2019","15 Jan, 2019",Nottingham Forest
+Aitor Karanka,"08 Jan, 2018","11 Jan, 2019",Nottingham Forest
+Gary Brazil,"31 Dec, 2017","08 Jan, 2018",Nottingham Forest
+Mark Warburton,"17 Mar, 2017","31 Dec, 2017",Nottingham Forest
+Gary Brazil,"15 Jan, 2017","17 Mar, 2017",Nottingham Forest
+Philippe Montanier,"27 Jun, 2016","14 Jan, 2017",Nottingham Forest
+Paul Williams,"13 Mar, 2016","12 May, 2016",Nottingham Forest
+Dougie Freedman,"02 Feb, 2015","13 Mar, 2016",Nottingham Forest
+Stuart Pearce,"01 Jul, 2014","01 Feb, 2015",Nottingham Forest
+Gary Brazil,"24 Mar, 2014","01 Jul, 2014",Nottingham Forest
+Billy Davies,"07 Feb, 2013","24 Mar, 2014",Nottingham Forest
+Alex McLeish,"27 Dec, 2012","05 Feb, 2013",Nottingham Forest
+Sean O'Driscoll,"20 Jul, 2012","27 Dec, 2012",Nottingham Forest
+Steve Cotterill,"14 Oct, 2011","12 Jul, 2012",Nottingham Forest
+Steve McClaren,"13 Jun, 2011","02 Oct, 2011",Nottingham Forest
+Billy Davies,"04 Jan, 2009","12 Jun, 2011",Nottingham Forest
+John Pemberton,"27 Dec, 2008","04 Jan, 2009",Nottingham Forest
+Colin Calderwood,"30 May, 2006","27 Dec, 2008",Nottingham Forest
+Frank Barlow,"17 Feb, 2006","30 May, 2006",Nottingham Forest
+Ian McParland,"17 Feb, 2006","30 May, 2006",Nottingham Forest
+Gary Megson,"10 Jan, 2005","16 Feb, 2006",Nottingham Forest
+Mick Harford,"16 Dec, 2004","10 Jan, 2005",Nottingham Forest
+Joe Kinnear,"10 Feb, 2004","16 Dec, 2004",Nottingham Forest
+Paul Hart,"12 Jul, 2001","07 Feb, 2004",Nottingham Forest
+David Platt,"01 Jul, 1999","12 Jul, 2001",Nottingham Forest
+Ron Atkinson,"11 Jan, 1999","16 May, 1999",Nottingham Forest
+Mickey Adams,"05 Jan, 1999","11 Jan, 1999",Nottingham Forest
+Dave Bassett,"08 May, 1997","05 Jan, 1999",Nottingham Forest
+Stuart Pearce,"20 Dec, 1996","08 May, 1997",Nottingham Forest
+Frank Clark,"12 May, 1993","19 Dec, 1996",Nottingham Forest
+Brian Clough,"06 Jan, 1975","08 May, 1993",Nottingham Forest
+Allan Brown,"19 Nov, 1973","03 Jan, 1975",Nottingham Forest
+Dave Mackay,"02 Nov, 1972","23 Oct, 1973",Nottingham Forest
+Matt Gillies,"01 Jan, 1969","20 Oct, 1972",Nottingham Forest
+Johnny Carey,"01 Jul, 1963","31 Dec, 1968",Nottingham Forest
+Andy Beattie,"01 Sep, 1960","01 Jul, 1963",Nottingham Forest
+Billy Walker,"01 Mar, 1939","01 Jun, 1960",Nottingham Forest
+Harold Wightman,"01 Jul, 1936","01 Mar, 1939",Nottingham Forest
+Noel Watson,"01 Aug, 1931","01 Jul, 1936",Nottingham Forest
+Stan Hardy,"01 Aug, 1930","31 May, 1931",Nottingham Forest
+John Baynes,"01 Aug, 1925","31 May, 1929",Nottingham Forest
+Bob Masters,"01 Aug, 1912","31 May, 1925",Nottingham Forest
+Fred Earp,"01 Aug, 1909","31 May, 1912",Nottingham Forest
+Harry Haslam (old),"01 Aug, 1897","31 May, 1909",Nottingham Forest
+Harry Radford,"01 Aug, 1889","31 May, 1897",Nottingham Forest
+Chris Wilder,"05 Dec, 2023",Present,Sheffield United
+Paul Heckingbottom,"25 Nov, 2021","05 Dec, 2023",Sheffield United
+Slavisa Jokanovic,"01 Jul, 2021","25 Nov, 2021",Sheffield United
+Paul Heckingbottom,"13 Mar, 2021","01 Jul, 2021",Sheffield United
+Chris Wilder,"12 May, 2016","13 Mar, 2021",Sheffield United
+Nigel Adkins,"02 Jun, 2015","12 May, 2016",Sheffield United
+Nigel Clough,"23 Oct, 2013","25 May, 2015",Sheffield United
+Chris Morgan,"11 Oct, 2013","23 Oct, 2013",Sheffield United
+David Weir,"10 Jun, 2013","11 Oct, 2013",Sheffield United
+Chris Morgan,"10 Apr, 2013","10 Jun, 2013",Sheffield United
+Danny Wilson,"27 May, 2011","10 Apr, 2013",Sheffield United
+Mickey Adams,"30 Dec, 2010","12 May, 2011",Sheffield United
+John Carver,"15 Dec, 2010","30 Dec, 2010",Sheffield United
+Gary Speed,"17 Aug, 2010","14 Dec, 2010",Sheffield United
+Kevin Blackwell,"14 Feb, 2008","14 Aug, 2010",Sheffield United
+Bryan Robson,"22 May, 2007","14 Feb, 2008",Sheffield United
+Neil Warnock,"02 Dec, 1999","16 May, 2007",Sheffield United
+Russell Slade,"23 Nov, 1999","02 Dec, 1999",Sheffield United
+Adrian Heath,"15 Jun, 1999","23 Nov, 1999",Sheffield United
+Steve Bruce,"02 Jul, 1998","17 May, 1999",Sheffield United
+Steve Thompson,"03 Mar, 1998","02 Jul, 1998",Sheffield United
+Russell Slade,"02 Mar, 1998","09 Mar, 1998",Sheffield United
+Nigel Spackman,"27 Jun, 1997","02 Mar, 1998",Sheffield United
+Howard Kendall,"12 Dec, 1995","27 Jun, 1997",Sheffield United
+Dave Bassett,"21 Jan, 1988","12 Dec, 1995",Sheffield United
+Billy McEwan,"27 Mar, 1986","02 Jan, 1988",Sheffield United
+Martin Peters,"01 Aug, 1981","01 Sep, 1981",Sheffield United
+Ian Porterfield,"01 Jul, 1981","27 Mar, 1986",Sheffield United
+Harry Haslam,"23 Jan, 1978","31 May, 1981",Sheffield United
+Jimmy Sirrel,"15 Oct, 1975","27 Sep, 1977",Sheffield United
+Ken Furphy,"05 Dec, 1973","06 Oct, 1975",Sheffield United
+John Harris,"01 Aug, 1969","05 Dec, 1973",Sheffield United
+Arthur Rowley,"01 Jul, 1968","01 Aug, 1969",Sheffield United
+John Harris,"01 Apr, 1959","01 Jul, 1968",Sheffield United
+Joe Mercer,"01 Aug, 1955","01 Dec, 1958",Sheffield United
+Reg Freeman,"01 Aug, 1952","01 Aug, 1955",Sheffield United
+Ted Davison,"01 Jun, 1932","01 Aug, 1952",Sheffield United
+John Nicholson,"01 May, 1899","01 Apr, 1932",Sheffield United
+J B Wostinholm,"01 Aug, 1889","01 May, 1899",Sheffield United
+Gary O'Neil,"09 Aug, 2023",Present,Wolves
+Julen Lopetegui,"14 Nov, 2022","09 Aug, 2023",Wolves
+Steve Davis,"03 Oct, 2022","13 Nov, 2022",Wolves
+Bruno Lage,"09 Jun, 2021","02 Oct, 2022",Wolves
+Nuno Espirito Santo,"31 May, 2017","01 Jun, 2021",Wolves
+Paul Lambert,"05 Nov, 2016","30 May, 2017",Wolves
+Rob Edwards,"25 Oct, 2016","05 Nov, 2016",Wolves
+Walter Zenga,"30 Jul, 2016","25 Oct, 2016",Wolves
+Kenny Jackett,"01 Jun, 2013","29 Jul, 2016",Wolves
+Dean Saunders,"07 Jan, 2013","07 May, 2013",Wolves
+Kevin Thelwell,"06 Jan, 2013","07 Jan, 2013",Wolves
+Stale Solbakken,"01 Jul, 2012","06 Jan, 2013",Wolves
+Terry Connor,"24 Feb, 2012","01 Jul, 2012",Wolves
+Mick McCarthy,"21 Jul, 2006","13 Feb, 2012",Wolves
+Glenn Hoddle,"07 Dec, 2004","01 Jul, 2006",Wolves
+Stuart Gray,"01 Nov, 2004","07 Dec, 2004",Wolves
+Dave Jones,"03 Jan, 2001","01 Nov, 2004",Wolves
+John Ward,"18 Dec, 2000","03 Jan, 2001",Wolves
+Colin Lee,"05 Nov, 1998","18 Dec, 2000",Wolves
+Mark McGhee,"13 Dec, 1995","05 Nov, 1998",Wolves
+Bobby Downes,"13 Nov, 1995","13 Dec, 1995",Wolves
+Graham Taylor,"29 Mar, 1994","13 Nov, 1995",Wolves
+Graham Turner,"07 Oct, 1986","16 Mar, 1994",Wolves
+Brian Little,"31 Aug, 1986","06 Oct, 1986",Wolves
+Sammy Chapman,"07 Nov, 1985","15 Aug, 1986",Wolves
+Bill McGarry,"04 Sep, 1985","04 Nov, 1985",Wolves
+Tommy Docherty,"08 Jun, 1984","04 Jul, 1985",Wolves
+Graham Hawkins,"04 Aug, 1982","08 Apr, 1984",Wolves
+Ian Greaves,"02 Feb, 1982","03 Aug, 1982",Wolves
+John Barnwell,"20 Nov, 1978","08 Jan, 1981",Wolves
+Sammy Chung,"19 Jun, 1976","08 Nov, 1978",Wolves
+Bill McGarry,"01 Nov, 1968","13 May, 1976",Wolves
+Ronnie Allen,"01 Sep, 1966","01 Nov, 1968",Wolves
+Andy Beattie,"01 Aug, 1964","01 Aug, 1965",Wolves
+Stan Cullis,"01 Jun, 1948","01 Aug, 1964",Wolves
+Ted Vizard,"01 Apr, 1944","31 May, 1948",Wolves
+Frank Buckley,"01 Jul, 1927","31 Mar, 1944",Wolves
+Fred Scotchbrook,"01 Mar, 1926","30 Jun, 1927",Wolves
+Albert Hoskins,"01 Jun, 1924","01 Mar, 1926",Wolves
+George Jobey,"01 Jun, 1922","31 May, 1924",Wolves
+John Addenbrooke,"01 Aug, 1885","01 Jun, 1922",Wolves
+George Worrall,"01 Aug, 1877","31 May, 1885",Wolves
