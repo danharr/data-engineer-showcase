@@ -1,0 +1,1 @@
+reads in local CSVs and transforms them in similar way to dbt folder
