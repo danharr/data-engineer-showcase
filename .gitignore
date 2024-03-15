@@ -4,8 +4,10 @@ dbt-example/dbt/squad_creation/dbt_packages/
 dbt-example/dbt/squad_creation/logs
 dbt-example/dbt/dbt-env
 dbt-example/dbt/logs
+dbt-example/logs
 pyspark/.ipynb_checkpoints
 pyspark/.ipython
 pyspark/.jupyter
 pyspark/.local
 pyspark/.npm
+pyspark/.cache/

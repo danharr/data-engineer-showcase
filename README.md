@@ -18,5 +18,6 @@ and takes unstructured data from various sites to then create a football based q
 [Final dashboard](https://public.tableau.com/app/profile/danjpharrington/viz/number_of_players_per_manager/Squads)
 
 ![dashboard](/Squads.png?raw=true "Tableau Dashboard")
+![dag](/dbt_dag.png?raw=true "DBT DAG")
 
 

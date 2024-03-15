@@ -22,3 +22,14 @@ sources:
     tables:
     - name: players
     - name: managers
+
+exposures:
+  - name: tableau_dashboard
+    type: dashboard
+    owner:
+      name: Dan
+    depends_on:
+      - ref('players_and_incumbent_manager')
+    description: Shows the number of managers that helped build the current squad
+    url: https://public.tableau.com/app/profile/danjpharrington/viz/number_of_players_per_manager/Squads
+    maturity: high
