@@ -11,3 +11,4 @@ pyspark/.jupyter
 pyspark/.local
 pyspark/.npm
 pyspark/.cache/
+dbt-example/player_data/my_deployment_package.zip
