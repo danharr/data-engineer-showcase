@@ -41,28 +41,71 @@ USE SCHEMA RAW;
 
 -- Create our three tables and import the data from S3
 CREATE OR REPLACE TABLE reviews
-                    (id integer,
-                     listing_url string,
-                     name string,
-                     room_type string,
-                     minimum_nights integer,
-                     host_id integer,
-                     price string,
-                     created_at datetime,
-                     updated_at datetime);
-                    
-COPY INTO reviews (id,
-                        listing_url,
-                        name,
-                        room_type,
-                        minimum_nights,
-                        host_id,
-                        price,
-                        created_at,
-                        updated_at)
-                   from 's3://dbtlearn/listings.csv'
-                    FILE_FORMAT = (type = 'CSV' skip_header = 1
-                    FIELD_OPTIONALLY_ENCLOSED_BY = '"');
-                    
+                    (reviewerID varchar,
+                     asin varchar,
+                     overall integer,
+                     unixReviewTime string);
 
-```
+
+
+CREATE STORAGE INTEGRATION s3_data
+  TYPE = EXTERNAL_STAGE
+  STORAGE_PROVIDER = 'S3'
+  ENABLED = TRUE
+  STORAGE_AWS_ROLE_ARN = '---'
+  STORAGE_ALLOWED_LOCATIONS = ('---');
+
+DESC INTEGRATION s3_data;
+
+USE SCHEMA AMAZON.RAW;
+
+
+CREATE OR REPLACE FILE FORMAT my_json_format
+  TYPE = JSON;
+
+CREATE STAGE my_s3_stage
+  STORAGE_INTEGRATION = s3_data
+  URL = '---'
+  FILE_FORMAT = my_json_format;
+
+
+  show stages;
+
+
+
+COPY INTO AMAZON.RAW.REVIEWS
+  FROM @MY_S3_STAGE
+
+     PATTERN='.*part.*.json'
+     MATCH_BY_COLUMN_NAME = CASE_INSENSITIVE;
+
+     select count(*)
+     from AMAZON.RAW.REVIEWS;
+
+
+     select overall,count(*)
+     from AMAZON.RAW.REVIEWS
+     group by 1;
+
+
+     
+
+
+
+
+
+;
+select *, DATE_TRUNC(month, to_timestamp(UNIXREVIEWTIME)) AS first_day_of_month
+from AMAZON.RAW.REVIEWS
+limit 500;
+
+select DATE_TRUNC(month, to_timestamp(UNIXREVIEWTIME)) AS first_day_of_month,avg(overall)
+from AMAZON.RAW.REVIEWS
+group by 1
+
+
+
+
+
+
+
