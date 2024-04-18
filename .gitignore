@@ -12,3 +12,6 @@ pyspark/.local
 pyspark/.npm
 pyspark/.cache/
 dbt-example/player_data/my_deployment_package.zip
+amazon-reviews/pyspark/metadata.json
+amazon-reviews/pyspark/item_dedup.json
+amazon-reviews/pyspark/outputs
