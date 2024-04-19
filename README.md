@@ -15,7 +15,7 @@ This example uses
 - Tableau Public
 - AWS (Lambda, ECR, S3)
 
-and takes unstructured data from various sites to then create a football based question about how a team's squad has been created over the years
+and takes unstructured data from various sites to then create a football based question about how a team's squad has been created over the years.
 
 Below is the summary of how I use various AWS services to fetch, clean and transform data
 
