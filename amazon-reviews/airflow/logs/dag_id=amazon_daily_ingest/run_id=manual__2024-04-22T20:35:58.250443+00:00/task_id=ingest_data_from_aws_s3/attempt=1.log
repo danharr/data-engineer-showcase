@@ -1,0 +1,53 @@
+[2024-04-22T20:36:04.570+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-22T20:36:04.582+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: amazon_daily_ingest.ingest_data_from_aws_s3 manual__2024-04-22T20:35:58.250443+00:00 [queued]>
+[2024-04-22T20:36:04.585+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: amazon_daily_ingest.ingest_data_from_aws_s3 manual__2024-04-22T20:35:58.250443+00:00 [queued]>
+[2024-04-22T20:36:04.585+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-22T20:36:04.590+0000] {taskinstance.py:2327} INFO - Executing <Task(SnowflakeOperator): ingest_data_from_aws_s3> on 2024-04-22 20:35:58.250443+00:00
+[2024-04-22T20:36:04.597+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1118) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-22T20:36:04.598+0000] {standard_task_runner.py:63} INFO - Started process 1120 to run task
+[2024-04-22T20:36:04.598+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'amazon_daily_ingest', 'ingest_data_from_aws_s3', 'manual__2024-04-22T20:35:58.250443+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/amazon/dag.py', '--cfg-path', '/tmp/tmp_s0beokh']
+[2024-04-22T20:36:04.598+0000] {standard_task_runner.py:91} INFO - Job 19: Subtask ingest_data_from_aws_s3
+[2024-04-22T20:36:04.617+0000] {task_command.py:426} INFO - Running <TaskInstance: amazon_daily_ingest.ingest_data_from_aws_s3 manual__2024-04-22T20:35:58.250443+00:00 [running]> on host 21d660d07eb5
+[2024-04-22T20:36:04.669+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='amazon_daily_ingest' AIRFLOW_CTX_TASK_ID='ingest_data_from_aws_s3' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T20:35:58.250443+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-22T20:35:58.250443+00:00'
+[2024-04-22T20:36:04.671+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-22T20:36:04.672+0000] {sql.py:276} INFO - Executing: COPY INTO AMAZON.RAW.daily_data_s3 
+FROM @my_s3_stage_gz
+MATCH_BY_COLUMN_NAME = CASE_INSENSITIVE
+FILE_FORMAT = my_json_format  ON_ERROR = 'SKIP_FILE' 
+FILES = ('daily_data23042014.json.gz');
+[2024-04-22T20:36:04.679+0000] {base.py:84} INFO - Using connection ID 'snowflake_trial' for task execution.
+[2024-04-22T20:36:04.683+0000] {base.py:84} INFO - Using connection ID 'snowflake_trial' for task execution.
+[2024-04-22T20:36:04.683+0000] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.2, Platform: Linux-6.6.16-linuxkit-aarch64-with-glibc2.36
+[2024-04-22T20:36:04.684+0000] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-04-22T20:36:04.865+0000] {cursor.py:1032} INFO - query: [ALTER SESSION SET autocommit=False]
+[2024-04-22T20:36:04.919+0000] {cursor.py:1045} INFO - query execution done
+[2024-04-22T20:36:04.919+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-22T20:36:04.919+0000] {sql.py:457} INFO - Running statement: COPY INTO AMAZON.RAW.daily_data_s3 
+FROM @my_s3_stage_gz
+MATCH_BY_COLUMN_NAME = CASE_INSENSITIVE
+FILE_FORMAT = my_json_format  ON_ERROR = 'SKIP_FILE' 
+FILES = ('daily_data23042014.json.gz');, parameters: None
+[2024-04-22T20:36:04.920+0000] {cursor.py:1032} INFO - query: [COPY INTO AMAZON.RAW.daily_data_s3 FROM @my_s3_stage_gz MATCH_BY_COLUMN_NAME = C...]
+[2024-04-22T20:36:06.421+0000] {cursor.py:1045} INFO - query execution done
+[2024-04-22T20:36:06.429+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-22T20:36:06.430+0000] {sql.py:466} INFO - Rows affected: 1
+[2024-04-22T20:36:06.438+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/snowflake/hooks/snowflake.py:393: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))  # type: ignore[attr-defined]
+
+[2024-04-22T20:36:06.441+0000] {snowflake.py:402} INFO - Rows affected: 1
+[2024-04-22T20:36:06.441+0000] {snowflake.py:403} INFO - Snowflake query id: 01b3d8b4-0000-de57-0000-0001980ee459
+[2024-04-22T20:36:06.442+0000] {cursor.py:1032} INFO - query: [COMMIT]
+[2024-04-22T20:36:06.633+0000] {cursor.py:1045} INFO - query execution done
+[2024-04-22T20:36:06.634+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-22T20:36:06.634+0000] {connection.py:734} INFO - closed
+[2024-04-22T20:36:06.663+0000] {connection.py:740} INFO - No async queries seem to be running, deleting session
+[2024-04-22T20:36:06.698+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-22T20:36:06.762+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=amazon_daily_ingest, task_id=ingest_data_from_aws_s3, execution_date=20240422T203558, start_date=20240422T203604, end_date=20240422T203606
+[2024-04-22T20:36:06.810+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-22T20:36:06.828+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1296: AirflowProviderDeprecationWarning: Call to deprecated class SnowflakeOperator. (This class is deprecated. Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`. Also, you can provide `hook_params={'warehouse': <warehouse>, 'database': <database>, 'role': <role>, 'schema': <schema>, 'authenticator': <authenticator>,'session_parameters': <session_parameters>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-22T20:36:06.853+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-04-22T20:36:06.854+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,1 @@
+[2024-04-22T20:08:49.765+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: amazon_test.snowflake_op_sql_str manual__2024-04-22T20:08:46.618034+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

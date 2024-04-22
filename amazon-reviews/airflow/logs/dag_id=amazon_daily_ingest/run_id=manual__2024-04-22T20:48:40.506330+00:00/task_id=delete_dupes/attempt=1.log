@@ -1,0 +1,69 @@
+[2024-04-22T20:48:58.038+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-22T20:48:58.050+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: amazon_daily_ingest.delete_dupes manual__2024-04-22T20:48:40.506330+00:00 [queued]>
+[2024-04-22T20:48:58.054+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: amazon_daily_ingest.delete_dupes manual__2024-04-22T20:48:40.506330+00:00 [queued]>
+[2024-04-22T20:48:58.055+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-22T20:48:58.060+0000] {taskinstance.py:2327} INFO - Executing <Task(SnowflakeOperator): delete_dupes> on 2024-04-22 20:48:40.506330+00:00
+[2024-04-22T20:48:58.065+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1346) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-22T20:48:58.067+0000] {standard_task_runner.py:63} INFO - Started process 1348 to run task
+[2024-04-22T20:48:58.069+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'amazon_daily_ingest', 'delete_dupes', 'manual__2024-04-22T20:48:40.506330+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/amazon/dag.py', '--cfg-path', '/tmp/tmpgdhnpehx']
+[2024-04-22T20:48:58.070+0000] {standard_task_runner.py:91} INFO - Job 39: Subtask delete_dupes
+[2024-04-22T20:48:58.102+0000] {task_command.py:426} INFO - Running <TaskInstance: amazon_daily_ingest.delete_dupes manual__2024-04-22T20:48:40.506330+00:00 [running]> on host 21d660d07eb5
+[2024-04-22T20:48:58.136+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='amazon_daily_ingest' AIRFLOW_CTX_TASK_ID='delete_dupes' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T20:48:40.506330+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-22T20:48:40.506330+00:00'
+[2024-04-22T20:48:58.137+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-22T20:48:58.137+0000] {sql.py:276} INFO - Executing: create or replace transient table AMAZON.RAW.duplicate_holder as (
+    select asin, reviewerID, overall, unixReviewTime
+    from AMAZON.RAW.FCT_DAILY_REVIEWS
+    group by all
+    having count(*)>1
+);
+
+
+
+delete from AMAZON.RAW.FCT_DAILY_REVIEWS a
+using AMAZON.RAW.duplicate_holder b
+where (a.asin,a.reviewerID,a.overall, a.unixReviewTime)=(b.asin,b.reviewerID,b.overall, b.unixReviewTime);
+[2024-04-22T20:48:58.142+0000] {base.py:84} INFO - Using connection ID 'snowflake_trial' for task execution.
+[2024-04-22T20:48:58.145+0000] {base.py:84} INFO - Using connection ID 'snowflake_trial' for task execution.
+[2024-04-22T20:48:58.146+0000] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.2, Platform: Linux-6.6.16-linuxkit-aarch64-with-glibc2.36
+[2024-04-22T20:48:58.146+0000] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-04-22T20:48:58.310+0000] {cursor.py:1032} INFO - query: [ALTER SESSION SET autocommit=False]
+[2024-04-22T20:48:58.393+0000] {cursor.py:1045} INFO - query execution done
+[2024-04-22T20:48:58.394+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-22T20:48:58.394+0000] {sql.py:457} INFO - Running statement: create or replace transient table AMAZON.RAW.duplicate_holder as (
+    select asin, reviewerID, overall, unixReviewTime
+    from AMAZON.RAW.FCT_DAILY_REVIEWS
+    group by all
+    having count(*)>1
+);, parameters: None
+[2024-04-22T20:48:58.394+0000] {cursor.py:1032} INFO - query: [create or replace transient table AMAZON.RAW.duplicate_holder as ( select asin, ...]
+[2024-04-22T20:48:59.027+0000] {cursor.py:1045} INFO - query execution done
+[2024-04-22T20:48:59.029+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-22T20:48:59.030+0000] {sql.py:466} INFO - Rows affected: 1
+[2024-04-22T20:48:59.034+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/snowflake/hooks/snowflake.py:393: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))  # type: ignore[attr-defined]
+
+[2024-04-22T20:48:59.036+0000] {snowflake.py:402} INFO - Rows affected: 1
+[2024-04-22T20:48:59.037+0000] {snowflake.py:403} INFO - Snowflake query id: 01b3d8c0-0000-df09-0001-980e00015076
+[2024-04-22T20:48:59.038+0000] {sql.py:457} INFO - Running statement: delete from AMAZON.RAW.FCT_DAILY_REVIEWS a
+using AMAZON.RAW.duplicate_holder b
+where (a.asin,a.reviewerID,a.overall, a.unixReviewTime)=(b.asin,b.reviewerID,b.overall, b.unixReviewTime);, parameters: None
+[2024-04-22T20:48:59.038+0000] {cursor.py:1032} INFO - query: [delete from AMAZON.RAW.FCT_DAILY_REVIEWS a using AMAZON.RAW.duplicate_holder b w...]
+[2024-04-22T20:48:59.331+0000] {cursor.py:1045} INFO - query execution done
+[2024-04-22T20:48:59.331+0000] {sql.py:466} INFO - Rows affected: 4128
+[2024-04-22T20:48:59.332+0000] {snowflake.py:402} INFO - Rows affected: 4128
+[2024-04-22T20:48:59.332+0000] {snowflake.py:403} INFO - Snowflake query id: 01b3d8c0-0000-df09-0001-980e0001507a
+[2024-04-22T20:48:59.332+0000] {cursor.py:1032} INFO - query: [COMMIT]
+[2024-04-22T20:48:59.537+0000] {cursor.py:1045} INFO - query execution done
+[2024-04-22T20:48:59.538+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-22T20:48:59.538+0000] {connection.py:734} INFO - closed
+[2024-04-22T20:48:59.576+0000] {connection.py:740} INFO - No async queries seem to be running, deleting session
+[2024-04-22T20:48:59.603+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-22T20:48:59.634+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=amazon_daily_ingest, task_id=delete_dupes, execution_date=20240422T204840, start_date=20240422T204858, end_date=20240422T204859
+[2024-04-22T20:48:59.666+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-22T20:48:59.708+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1296: AirflowProviderDeprecationWarning: Call to deprecated class SnowflakeOperator. (This class is deprecated. Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`. Also, you can provide `hook_params={'warehouse': <warehouse>, 'database': <database>, 'role': <role>, 'schema': <schema>, 'authenticator': <authenticator>,'session_parameters': <session_parameters>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-22T20:48:59.727+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-04-22T20:48:59.728+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

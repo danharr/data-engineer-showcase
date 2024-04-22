@@ -1,0 +1,83 @@
+[2024-04-22T20:32:10.153+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-22T20:32:10.171+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: amazon_daily_ingest.create_reviews manual__2024-04-22T20:32:07.946789+00:00 [queued]>
+[2024-04-22T20:32:10.175+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: amazon_daily_ingest.create_reviews manual__2024-04-22T20:32:07.946789+00:00 [queued]>
+[2024-04-22T20:32:10.175+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-04-22T20:32:10.181+0000] {taskinstance.py:2327} INFO - Executing <Task(SnowflakeOperator): create_reviews> on 2024-04-22 20:32:07.946789+00:00
+[2024-04-22T20:32:10.192+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=1045) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-22T20:32:10.193+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'amazon_daily_ingest', 'create_reviews', 'manual__2024-04-22T20:32:07.946789+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/amazon/dag.py', '--cfg-path', '/tmp/tmpqikftimz']
+[2024-04-22T20:32:10.195+0000] {standard_task_runner.py:91} INFO - Job 11: Subtask create_reviews
+[2024-04-22T20:32:10.195+0000] {standard_task_runner.py:63} INFO - Started process 1049 to run task
+[2024-04-22T20:32:10.256+0000] {task_command.py:426} INFO - Running <TaskInstance: amazon_daily_ingest.create_reviews manual__2024-04-22T20:32:07.946789+00:00 [running]> on host 21d660d07eb5
+[2024-04-22T20:32:10.359+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='amazon_daily_ingest' AIRFLOW_CTX_TASK_ID='create_reviews' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T20:32:07.946789+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-22T20:32:07.946789+00:00'
+[2024-04-22T20:32:10.361+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-22T20:32:10.362+0000] {sql.py:276} INFO - Executing: CREATE OR REPLACE TABLE if not exists AMAZON.RAW.FCT_DAILY_REVIEWS
+                    (reviewerID varchar,
+                     asin varchar,
+                     overall integer,
+                     reviewerName varchar,
+                     reviewText varchar,
+                     summary varchar,
+                     unixReviewTime string,
+                     etl_id string);
+[2024-04-22T20:32:10.371+0000] {base.py:84} INFO - Using connection ID 'snowflake_trial' for task execution.
+[2024-04-22T20:32:10.378+0000] {base.py:84} INFO - Using connection ID 'snowflake_trial' for task execution.
+[2024-04-22T20:32:10.378+0000] {connection.py:386} INFO - Snowflake Connector for Python Version: 3.7.1, Python Version: 3.12.2, Platform: Linux-6.6.16-linuxkit-aarch64-with-glibc2.36
+[2024-04-22T20:32:10.380+0000] {connection.py:1211} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-04-22T20:32:10.698+0000] {cursor.py:1032} INFO - query: [ALTER SESSION SET autocommit=False]
+[2024-04-22T20:32:10.768+0000] {cursor.py:1045} INFO - query execution done
+[2024-04-22T20:32:10.768+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2024-04-22T20:32:10.768+0000] {sql.py:457} INFO - Running statement: CREATE OR REPLACE TABLE if not exists AMAZON.RAW.FCT_DAILY_REVIEWS
+                    (reviewerID varchar,
+                     asin varchar,
+                     overall integer,
+                     reviewerName varchar,
+                     reviewText varchar,
+                     summary varchar,
+                     unixReviewTime string,
+                     etl_id string);, parameters: None
+[2024-04-22T20:32:10.768+0000] {cursor.py:1032} INFO - query: [CREATE OR REPLACE TABLE if not exists AMAZON.RAW.FCT_DAILY_REVIEWS (reviewerID v...]
+[2024-04-22T20:32:10.826+0000] {cursor.py:1045} INFO - query execution done
+[2024-04-22T20:32:10.840+0000] {connection.py:734} INFO - closed
+[2024-04-22T20:32:10.859+0000] {connection.py:740} INFO - No async queries seem to be running, deleting session
+[2024-04-22T20:32:10.889+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-22T20:32:10.890+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 390, in run
+    self._run_command(cur, sql_statement, parameters)  # type: ignore[attr-defined]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 462, in _run_command
+    cur.execute(sql_statement)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/cursor.py", line 1136, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 290, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 345, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/airflow/.local/lib/python3.12/site-packages/snowflake/connector/errors.py", line 221, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 001004 (0A000): 01b3d8b0-0000-dec7-0001-980e00013132: SQL compilation error:
+options IF NOT EXISTS and OR REPLACE are incompatible.
+[2024-04-22T20:32:10.897+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=amazon_daily_ingest, task_id=create_reviews, execution_date=20240422T203207, start_date=20240422T203210, end_date=20240422T203210
+[2024-04-22T20:32:10.903+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 11 for task create_reviews (001004 (0A000): 01b3d8b0-0000-dec7-0001-980e00013132: SQL compilation error:
+options IF NOT EXISTS and OR REPLACE are incompatible.; 1049)
+[2024-04-22T20:32:10.919+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-22T20:32:10.924+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1296: AirflowProviderDeprecationWarning: Call to deprecated class SnowflakeOperator. (This class is deprecated. Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`. Also, you can provide `hook_params={'warehouse': <warehouse>, 'database': <database>, 'role': <role>, 'schema': <schema>, 'authenticator': <authenticator>,'session_parameters': <session_parameters>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-22T20:32:10.929+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-22T20:32:10.931+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
