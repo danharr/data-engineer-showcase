@@ -17,8 +17,7 @@ Nice to have:
 reviewText
 helpful
 
-![reviews](/reviews.png?raw=true "reviews")
-![aws](/aws.png?raw=true "aws")
+![reviews](reviews.png?raw=true "reviews")
 
 
 <img src="mockup.JPG?raw=true" alt="mockup" width="200"/>
