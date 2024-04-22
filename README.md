@@ -19,6 +19,7 @@ and takes unstructured data from various sites to then create a football based q
 
 Below is the summary of how I use various AWS services to fetch, clean and transform data
 
+![reviews](/reviews.png?raw=true "reviews")
 ![aws](/aws.png?raw=true "aws")
 
 [Final dashboard](https://public.tableau.com/app/profile/danjpharrington/viz/number_of_players_per_manager/Squads)
