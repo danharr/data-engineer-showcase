@@ -17,6 +17,9 @@ Nice to have:
 reviewText
 helpful
 
+![reviews](/reviews.png?raw=true "reviews")
+![aws](/aws.png?raw=true "aws")
+
 
 <img src="mockup.JPG?raw=true" alt="mockup" width="200"/>
 <img src="top10.png?raw=true" alt="top10" width="200"/>
